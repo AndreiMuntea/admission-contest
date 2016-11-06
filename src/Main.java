@@ -2,6 +2,7 @@
 import controller.CandidateController;
 import controller.IController;
 import domain.Candidate;
+import domain.Option;
 import domain.Section;
 import helpers.loader.ILoader;
 import helpers.loader.serialisedLoader.SerialisedCandidateLoader;
@@ -15,6 +16,7 @@ import repository.FileRepository;
 import repository.IRepository;
 import repository.InMemoryRepository;
 import utils.MyException;
+import utils.Pair;
 import validator.CandidateValidator;
 import validator.IValidator;
 
@@ -31,6 +33,9 @@ public class Main {
         IRepository<Integer, Candidate> repo = new FileRepository<>("resources/candidates.txt",loader, saver);
         IValidator<Candidate> validator = new CandidateValidator();
         IController<Integer, Candidate> controller = new CandidateController(validator,repo);
+
+        Option<String, Integer> Sd = new Option<>(new Pair<>("ana",3));
+        System.out.println(Sd);
 
         System.out.println(controller.getAll());
     }

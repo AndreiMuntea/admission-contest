@@ -81,40 +81,45 @@
 <i>7</i>&nbsp; * Created by andrei on 11/2/2016.
 <i>8</i>&nbsp; */
 <b class="fc"><i>9</i>&nbsp;public class SectionValidator implements IValidator&lt;Section&gt; {</b>
-<i>10</i>&nbsp;    @Override
-<i>11</i>&nbsp;    public void validate(Section object) throws ValidatorException {
-<b class="fc"><i>12</i>&nbsp;        String errors = &quot;&quot;;</b>
-<i>13</i>&nbsp;
-<b class="fc"><i>14</i>&nbsp;        if (!validateID(object.getID()))</b>
-<b class="fc"><i>15</i>&nbsp;            errors += &quot;ID can&#39;t be void!\n&quot;;</b>
-<b class="fc"><i>16</i>&nbsp;        if (!validateName(object.getName()))</b>
-<b class="fc"><i>17</i>&nbsp;            errors += &quot;Name can&#39;t be void!\n&quot;;</b>
-<b class="fc"><i>18</i>&nbsp;        if (!validateAvailableSlots(object.getAvailableSlots()))</b>
-<b class="fc"><i>19</i>&nbsp;            errors += &quot;There should be at least one available slot!\n&quot;;</b>
-<i>20</i>&nbsp;
-<b class="fc"><i>21</i>&nbsp;        if (!errors.equals(&quot;&quot;)) {</b>
-<b class="fc"><i>22</i>&nbsp;            throw new ValidatorException(errors);</b>
-<i>23</i>&nbsp;        }
-<i>24</i>&nbsp;    }
+<i>10</i>&nbsp;    /**
+<i>11</i>&nbsp;     *
+<i>12</i>&nbsp;     * @param object - a Section. The Section to be validated.
+<i>13</i>&nbsp;     * @throws ValidatorException - if section is not valid.
+<i>14</i>&nbsp;     */
+<i>15</i>&nbsp;    @Override
+<i>16</i>&nbsp;    public void validate(Section object) throws ValidatorException {
+<b class="fc"><i>17</i>&nbsp;        String errors = &quot;&quot;;</b>
+<i>18</i>&nbsp;
+<b class="fc"><i>19</i>&nbsp;        if (!validateID(object.getID()))</b>
+<b class="fc"><i>20</i>&nbsp;            errors += &quot;ID can&#39;t be void!\n&quot;;</b>
+<b class="fc"><i>21</i>&nbsp;        if (!validateName(object.getName()))</b>
+<b class="fc"><i>22</i>&nbsp;            errors += &quot;Name can&#39;t be void!\n&quot;;</b>
+<b class="fc"><i>23</i>&nbsp;        if (!validateAvailableSlots(object.getAvailableSlots()))</b>
+<b class="fc"><i>24</i>&nbsp;            errors += &quot;There should be at least one available slot!\n&quot;;</b>
 <i>25</i>&nbsp;
-<i>26</i>&nbsp;    private Boolean validateName(String name) {
-<b class="fc"><i>27</i>&nbsp;        return !(name.equals(&quot;&quot;));</b>
-<i>28</i>&nbsp;    }
-<i>29</i>&nbsp;
-<i>30</i>&nbsp;    private Boolean validateID(String ID) {
-<b class="fc"><i>31</i>&nbsp;        return !(ID.equals(&quot;&quot;));</b>
-<i>32</i>&nbsp;    }
-<i>33</i>&nbsp;
-<i>34</i>&nbsp;    private Boolean validateAvailableSlots(Integer availableSlots) {
-<b class="fc"><i>35</i>&nbsp;        return (availableSlots &gt; 0);</b>
-<i>36</i>&nbsp;    }
-<i>37</i>&nbsp;}
+<b class="fc"><i>26</i>&nbsp;        if (!errors.equals(&quot;&quot;)) {</b>
+<b class="fc"><i>27</i>&nbsp;            throw new ValidatorException(errors);</b>
+<i>28</i>&nbsp;        }
+<i>29</i>&nbsp;    }
+<i>30</i>&nbsp;
+<i>31</i>&nbsp;    private Boolean validateName(String name) {
+<b class="fc"><i>32</i>&nbsp;        return !(name.equals(&quot;&quot;));</b>
+<i>33</i>&nbsp;    }
+<i>34</i>&nbsp;
+<i>35</i>&nbsp;    private Boolean validateID(String ID) {
+<b class="fc"><i>36</i>&nbsp;        return !(ID.equals(&quot;&quot;));</b>
+<i>37</i>&nbsp;    }
+<i>38</i>&nbsp;
+<i>39</i>&nbsp;    private Boolean validateAvailableSlots(Integer availableSlots) {
+<b class="fc"><i>40</i>&nbsp;        return (availableSlots &gt; 0);</b>
+<i>41</i>&nbsp;    }
+<i>42</i>&nbsp;}
 </div>
 </div>
 
 <div class="footer">
     
-    <div style="float:right;">generated on 2016-11-03 15:32</div>
+    <div style="float:right;">generated on 2016-11-06 12:00</div>
 </div>
 </body>
 </html>

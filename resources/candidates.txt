@@ -1,5 +1,2 @@
-1|Ion Pop|Calea Dunarii nr 15|0728447129|10.0
-2|Dionisie Martian|Adunarea Populara nr 20|0823491772|4.5
-3|Marc Gopo|Panselutelor nr 9|0744213654|9.8
-2|Dionisie Martian|Adunarea Populara nr 20|0823491772|4.5
-3|Marc Gopo|Panselutelor nr 9|0744213654|9.8
+12|nume|adresa|0727126338|5.4
+13|nume|adresa|0727126338|5.4

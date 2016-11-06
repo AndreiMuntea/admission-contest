@@ -82,53 +82,58 @@
 <i>8</i>&nbsp; */
 <b class="fc"><i>9</i>&nbsp;public class CandidateValidator implements IValidator&lt;Candidate&gt; {</b>
 <i>10</i>&nbsp;
-<i>11</i>&nbsp;    @Override
-<i>12</i>&nbsp;    public void validate(Candidate object) throws ValidatorException {
-<b class="fc"><i>13</i>&nbsp;        String errors = &quot;&quot;;</b>
-<i>14</i>&nbsp;
-<b class="fc"><i>15</i>&nbsp;        if (!validateID(object.getID()))</b>
-<b class="fc"><i>16</i>&nbsp;            errors += &quot;ID must be greater than 0!\n&quot;;</b>
-<b class="fc"><i>17</i>&nbsp;        if (!validateName(object.getName()))</b>
-<b class="fc"><i>18</i>&nbsp;            errors += &quot;Name can&#39;t be void!\n&quot;;</b>
-<b class="fc"><i>19</i>&nbsp;        if (!validatePhoneNumber(object.getPhoneNumber()))</b>
-<b class="fc"><i>20</i>&nbsp;            errors += &quot;Phone number must start with 0 and be a 10 digit string!\n&quot;;</b>
-<b class="fc"><i>21</i>&nbsp;        if (!validateAddress(object.getAddress()))</b>
-<b class="fc"><i>22</i>&nbsp;            errors += &quot;Address can&#39;t be void!\n&quot;;</b>
-<b class="fc"><i>23</i>&nbsp;        if (!validateGrade(object.getGrade()))</b>
-<b class="fc"><i>24</i>&nbsp;            errors += &quot;Grade should be a number in range 1 - 10!\n&quot;;</b>
-<i>25</i>&nbsp;
-<b class="fc"><i>26</i>&nbsp;        if (!errors.equals(&quot;&quot;)) {</b>
-<b class="fc"><i>27</i>&nbsp;            throw new ValidatorException(errors);</b>
-<i>28</i>&nbsp;        }
-<i>29</i>&nbsp;    }
+<i>11</i>&nbsp;    /**
+<i>12</i>&nbsp;     *
+<i>13</i>&nbsp;     * @param object - a Candidate. The Candidate to be validated.
+<i>14</i>&nbsp;     * @throws ValidatorException - if Candidate is not valid.
+<i>15</i>&nbsp;     */
+<i>16</i>&nbsp;    @Override
+<i>17</i>&nbsp;    public void validate(Candidate object) throws ValidatorException {
+<b class="fc"><i>18</i>&nbsp;        String errors = &quot;&quot;;</b>
+<i>19</i>&nbsp;
+<b class="fc"><i>20</i>&nbsp;        if (!validateID(object.getID()))</b>
+<b class="fc"><i>21</i>&nbsp;            errors += &quot;ID must be greater than 0!\n&quot;;</b>
+<b class="fc"><i>22</i>&nbsp;        if (!validateName(object.getName()))</b>
+<b class="fc"><i>23</i>&nbsp;            errors += &quot;Name can&#39;t be void!\n&quot;;</b>
+<b class="fc"><i>24</i>&nbsp;        if (!validatePhoneNumber(object.getPhoneNumber()))</b>
+<b class="fc"><i>25</i>&nbsp;            errors += &quot;Phone number must start with 0 and be a 10 digit string!\n&quot;;</b>
+<b class="fc"><i>26</i>&nbsp;        if (!validateAddress(object.getAddress()))</b>
+<b class="fc"><i>27</i>&nbsp;            errors += &quot;Address can&#39;t be void!\n&quot;;</b>
+<b class="fc"><i>28</i>&nbsp;        if (!validateGrade(object.getGrade()))</b>
+<b class="fc"><i>29</i>&nbsp;            errors += &quot;Grade should be a number in range 1 - 10!\n&quot;;</b>
 <i>30</i>&nbsp;
-<i>31</i>&nbsp;    private Boolean validateID(Integer ID) {
-<b class="fc"><i>32</i>&nbsp;        return (ID &gt; 0);</b>
-<i>33</i>&nbsp;    }
-<i>34</i>&nbsp;
-<i>35</i>&nbsp;    private Boolean validateName(String name) {
-<b class="fc"><i>36</i>&nbsp;        return (!name.equals(&quot;&quot;));</b>
-<i>37</i>&nbsp;    }
-<i>38</i>&nbsp;
-<i>39</i>&nbsp;    private Boolean validateAddress(String address) {
-<b class="fc"><i>40</i>&nbsp;        return (!address.equals(&quot;&quot;));</b>
-<i>41</i>&nbsp;    }
-<i>42</i>&nbsp;
-<i>43</i>&nbsp;    private Boolean validateGrade(Double grade) {
-<b class="pc"><i>44</i>&nbsp;        return (grade &gt;= 1 &amp;&amp; grade &lt;= 10);</b>
-<i>45</i>&nbsp;    }
-<i>46</i>&nbsp;
-<i>47</i>&nbsp;    private Boolean validatePhoneNumber(String phoneNumber) {
-<b class="pc"><i>48</i>&nbsp;        return (phoneNumber.length() == 10 &amp;&amp; (phoneNumber.matches(&quot;0[0-9]+&quot;)));</b>
-<i>49</i>&nbsp;    }
-<i>50</i>&nbsp;
-<i>51</i>&nbsp;}
+<b class="fc"><i>31</i>&nbsp;        if (!errors.equals(&quot;&quot;)) {</b>
+<b class="fc"><i>32</i>&nbsp;            throw new ValidatorException(errors);</b>
+<i>33</i>&nbsp;        }
+<i>34</i>&nbsp;    }
+<i>35</i>&nbsp;
+<i>36</i>&nbsp;    private Boolean validateID(Integer ID) {
+<b class="fc"><i>37</i>&nbsp;        return (ID &gt; 0);</b>
+<i>38</i>&nbsp;    }
+<i>39</i>&nbsp;
+<i>40</i>&nbsp;    private Boolean validateName(String name) {
+<b class="fc"><i>41</i>&nbsp;        return (!name.equals(&quot;&quot;));</b>
+<i>42</i>&nbsp;    }
+<i>43</i>&nbsp;
+<i>44</i>&nbsp;    private Boolean validateAddress(String address) {
+<b class="fc"><i>45</i>&nbsp;        return (!address.equals(&quot;&quot;));</b>
+<i>46</i>&nbsp;    }
+<i>47</i>&nbsp;
+<i>48</i>&nbsp;    private Boolean validateGrade(Double grade) {
+<b class="pc"><i>49</i>&nbsp;        return (grade &gt;= 1 &amp;&amp; grade &lt;= 10);</b>
+<i>50</i>&nbsp;    }
+<i>51</i>&nbsp;
+<i>52</i>&nbsp;    private Boolean validatePhoneNumber(String phoneNumber) {
+<b class="pc"><i>53</i>&nbsp;        return (phoneNumber.length() == 10 &amp;&amp; (phoneNumber.matches(&quot;0[0-9]+&quot;)));</b>
+<i>54</i>&nbsp;    }
+<i>55</i>&nbsp;
+<i>56</i>&nbsp;}
 </div>
 </div>
 
 <div class="footer">
     
-    <div style="float:right;">generated on 2016-11-03 15:32</div>
+    <div style="float:right;">generated on 2016-11-06 12:00</div>
 </div>
 </body>
 </html>
