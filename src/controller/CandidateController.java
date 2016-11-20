@@ -6,7 +6,10 @@ import repository.IRepository;
 import utils.MyException;
 import validator.IValidator;
 
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
+import java.util.function.Predicate;
 
 /**
  * Created by andrei on 11/6/2016.
@@ -38,8 +41,8 @@ public class CandidateController extends AbstractController<Integer, Candidate> 
     }
 
     @Override
-    public void updateElement(String ID, String... args) throws MyException {
-        super.updateElement(ID, args);
+    public void updateElement(String... args) throws MyException {
+        super.updateElement(args);
     }
 
 
@@ -77,6 +80,15 @@ public class CandidateController extends AbstractController<Integer, Candidate> 
         }
 
         return new Candidate(ID, name, address, phoneNumber, grade);
+    }
+
+    public List<Candidate> filterByPrefix(String prefix)
+    {
+        List<Candidate> list = new ArrayList<>(super.getAll());
+        if (prefix.isEmpty()) return list;
+
+        Predicate<Candidate> predicate = (c) -> c.getName().startsWith(prefix);
+        return super.filterList(list,predicate);
     }
 
 }

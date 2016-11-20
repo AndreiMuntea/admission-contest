@@ -43,7 +43,7 @@ public class AbstractRepository<ID, Element extends HasID<ID>> implements IRepos
 
     @Override
     public void updateElement(ID ID, Element updatedElement) throws RepositoryException {
-        if (ID != updatedElement.getID()) {
+        if (!ID.equals(updatedElement.getID())) {
             throw new RepositoryChangedIDException("ID can't be changed!\n");
         }
         if (!exists(ID)) {

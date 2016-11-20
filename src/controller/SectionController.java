@@ -38,8 +38,8 @@ public class SectionController extends AbstractController<String, Section> {
     }
 
     @Override
-    public void updateElement(String ID, String... args) throws MyException {
-        super.updateElement(ID, args);
+    public void updateElement(String... args) throws MyException {
+        super.updateElement(args);
     }
 
     @Override

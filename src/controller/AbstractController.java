@@ -6,6 +6,9 @@ import utils.MyException;
 import validator.IValidator;
 
 import java.util.Collection;
+import java.util.List;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 /**
  * Created by andrei on 11/6/2016.
@@ -49,8 +52,14 @@ public abstract class AbstractController<ID, E>{
         return repository.getAll();
     }
 
-    public void updateElement(String ID, String... args) throws MyException{
-        ID elementID = formatID(ID);
+
+    public List<E> filterList(List<E> list, Predicate<E> predicate)
+    {
+        return list.stream().filter(predicate).collect(Collectors.toList());
+    }
+
+    public void updateElement(String... args) throws MyException{
+        ID elementID = formatID(args[0]);
         E updatedElement = formatElement(args);
         validator.validate(updatedElement);
         repository.updateElement(elementID, updatedElement);
