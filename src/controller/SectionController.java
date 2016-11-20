@@ -33,7 +33,7 @@ public class SectionController extends AbstractController<String, Section> {
     }
 
     @Override
-    public Collection<Section> getAll() throws MyException {
+    public Collection<Section> getAll() {
         return super.getAll();
     }
 

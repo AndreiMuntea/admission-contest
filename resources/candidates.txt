@@ -1,2 +1,1000 @@
-12|nume|adresa|0727126338|5.4
-13|nume|adresa|0727126338|5.4
+1|Andrea Carter|30179 Mockingbird Avenue|0957726891|1.53
+2|Joyce Gonzales|55734 Cambridge Avenue|0874048506|5.89
+3|Paula Hawkins|6253 Miller Alley|0400452588|3.78
+4|Robert Stevens|605 Michigan Court|0117239551|5.24
+5|Pamela Sanders|52701 Cardinal Road|0858651894|4.17
+6|Clarence Wells|4637 Stoughton Parkway|0662460568|1.1
+7|George Reyes|35584 Northview Avenue|0733558634|6.26
+8|Mildred Ray|78 Tomscot Crossing|0700124603|3.37
+9|Rebecca Garza|871 4th Parkway|0199517585|1.27
+10|Peter Elliott|61865 6th Center|0643198784|2.76
+11|Randy Adams|54 Truax Avenue|0839799336|9.54
+12|Andrea Davis|16381 Ilene Point|0649623982|2.63
+13|Sharon Hanson|63 Oxford Circle|0642197284|1.43
+14|Robin Watson|79 Spenser Lane|0652514415|4.41
+15|Jane Carr|286 Barnett Circle|0727860540|2.49
+16|Joseph Morales|18 Tomscot Pass|0721932872|4.1
+17|Bobby Smith|8 New Castle Alley|0830780502|2.56
+18|Marie Porter|9 Maryland Plaza|0879986836|1.57
+19|Joe Willis|79679 Washington Crossing|0251083311|3.04
+20|Beverly Collins|9 Marcy Trail|0222574267|2.02
+21|Ruby Gardner|5483 Homewood Pass|0182289746|3.45
+22|Richard Henry|80 David Park|0673837088|2.67
+23|Henry Price|0678 Charing Cross Hill|0930425155|3.21
+24|Philip Reynolds|9 Transport Plaza|0413673289|1.45
+25|Julia Harrison|4 Kinsman Trail|0880312356|4.22
+26|Doris Young|85317 Rusk Trail|0527242463|7.31
+27|Barbara Martin|56 Macpherson Park|0737860051|5.78
+28|Jeffrey Thompson|39400 Anniversary Crossing|0390390661|3.99
+29|Brian Long|0 Killdeer Park|0209658620|6.51
+30|Diane Woods|91 Carey Crossing|0260807807|7.58
+31|Nicholas Burke|082 Kipling Hill|0594474578|8.12
+32|Emily Simmons|0533 Haas Crossing|0653786220|5.93
+33|Catherine Cooper|27517 Prairieview Crossing|0417032684|4.05
+34|Melissa Tucker|13851 Acker Alley|0640378761|5.56
+35|Stephanie Anderson|439 Northport Park|0659705625|6.38
+36|Keith Thomas|696 Oriole Crossing|0182002324|6.03
+37|Julia Ray|1150 Artisan Center|0893178367|9.88
+38|Tammy Hansen|57 Lunder Point|0567049929|7.76
+39|Eugene Medina|43186 Ruskin Circle|0824191267|5.61
+40|Mary Woods|9755 Hooker Street|0847983058|5.0
+41|Elizabeth Reed|90778 Doe Crossing Court|0301423465|2.47
+42|Charles Alexander|65 Independence Hill|0435701928|3.96
+43|Jacqueline Lopez|6979 Jana Parkway|0633988853|3.19
+44|Aaron Gonzales|40063 Monica Drive|0736187821|4.12
+45|Eugene Mendoza|23025 Bonner Road|0974714503|4.22
+46|Cheryl Perry|75903 Southridge Junction|0262792878|4.88
+47|Juan Flores|84393 Weeping Birch Circle|0696747207|1.73
+48|Carlos Gonzalez|643 Dorton Circle|0280476161|7.19
+49|Joyce Hart|70 Schurz Place|0186829775|1.01
+50|Ralph Kelly|71978 Forest Circle|0618657749|5.95
+51|Christina Arnold|284 Kennedy Road|0791083324|6.19
+52|Bonnie Burton|9523 Texas Avenue|0660603432|8.76
+53|Ralph Austin|7 Chinook Park|0879773692|2.57
+54|Michelle Edwards|7 Lighthouse Bay Pass|0488923369|8.27
+55|Steven Henry|5869 Kim Place|0467051980|8.0
+56|Jason Andrews|77 Shopko Circle|0719276371|6.66
+57|Rebecca Murphy|2 Mifflin Avenue|0926441674|4.27
+58|Heather Ryan|0358 Sundown Circle|0500505662|1.49
+59|Antonio Barnes|250 Vermont Terrace|0440227835|4.28
+60|Matthew Ruiz|76 Artisan Hill|0351268483|8.69
+61|Steven Dean|9899 Stephen Alley|0740616838|4.36
+62|Mary Woods|8806 Chinook Park|0410646345|9.86
+63|Randy Garrett|0 Springs Avenue|0499564899|1.45
+64|Daniel Jenkins|3921 Basil Alley|0217839808|4.09
+65|Antonio Gibson|78 Sunbrook Point|0586574919|5.08
+66|Fred Burke|559 Northland Parkway|0406738210|5.69
+67|Douglas Mitchell|4866 Birchwood Circle|0670869370|8.49
+68|Andrea Hart|4428 Maple Circle|0593002097|2.95
+69|Marilyn Nelson|3 Menomonie Avenue|0563982209|1.23
+70|Antonio Lewis|7552 Columbus Park|0151420017|4.84
+71|Lois Hayes|450 Service Avenue|0236025970|3.71
+72|Craig Medina|38 Namekagon Terrace|0257049887|5.67
+73|Brian Campbell|9 Jenna Point|0540443623|6.46
+74|Alice Brooks|0 Jackson Trail|0584772292|9.2
+75|Adam Tucker|89 Dawn Court|0751226465|3.7
+76|Billy Murphy|4903 Northridge Court|0495633645|1.63
+77|Linda Lynch|011 Sage Plaza|0211420779|6.38
+78|Barbara Flores|2 Bonner Street|0862533476|6.56
+79|Jessica Payne|98 Sachs Street|0901207867|3.94
+80|Carol Kim|5152 Evergreen Crossing|0181972475|5.61
+81|Shirley Ferguson|49 Brentwood Court|0193203294|4.91
+82|Pamela Walker|851 Vidon Junction|0696965300|2.14
+83|Anna Green|89 Paget Point|0828643825|5.73
+84|Jean Stephens|29 Straubel Alley|0951285605|3.82
+85|Todd Henry|4 Meadow Ridge Trail|0168470024|1.13
+86|Richard Lawson|969 Truax Center|0958506144|3.0
+87|Susan Griffin|7 Judy Street|0876438832|3.25
+88|Sean Welch|4881 Summit Trail|0310660793|2.14
+89|Elizabeth Allen|204 Hintze Road|0667082275|5.29
+90|Keith Barnes|29 Cody Park|0255024722|6.3
+91|Roger Shaw|00317 Continental Circle|0163095805|8.68
+92|Jonathan Wagner|0337 Schiller Pass|0488171656|6.16
+93|Christine Jackson|8780 Lakewood Alley|0345378339|9.45
+94|Arthur Harper|0645 Jay Drive|0167230934|5.28
+95|Rachel Woods|851 Bluestem Road|0504395144|9.84
+96|Ernest Diaz|36 Arkansas Plaza|0437010354|4.3
+97|Peter Peterson|81456 Westend Road|0606887441|6.36
+98|Teresa Johnston|70 Haas Hill|0997107437|8.53
+99|Robin Montgomery|3859 Corscot Drive|0414740020|3.85
+100|Donald Walker|618 Sauthoff Place|0478926490|7.64
+101|Matthew Murphy|99389 Mallard Circle|0505341758|5.42
+102|Judith Henderson|34 Schurz Way|0667796105|1.39
+103|Denise Welch|4643 Holmberg Center|0657599995|9.97
+104|Dorothy Barnes|516 Transport Center|0927764536|2.52
+105|David Ryan|3 Veith Alley|0754569848|5.85
+106|Mary Wheeler|3 Harper Way|0978179855|6.23
+107|Pamela Chavez|30521 Bultman Center|0524696153|2.11
+108|Marie Wallace|74 Rigney Drive|0733343905|1.79
+109|Wanda Hudson|47 Arapahoe Trail|0600546001|8.29
+110|Victor Adams|80 Stang Hill|0758574948|9.91
+111|Cynthia Nguyen|582 Grover Junction|0252681793|7.02
+112|Andrew Harrison|55 Shelley Street|0279174073|3.79
+113|Matthew Kelley|35 Roxbury Plaza|0162957260|9.85
+114|Tina Cooper|3 Corben Pass|0837425126|3.22
+115|Philip Morris|237 American Crossing|0874423924|5.89
+116|Tina Gonzalez|62 Service Road|0278947511|9.02
+117|Julie Myers|748 Carey Avenue|0826559168|6.55
+118|Lillian Lee|21 Eastwood Parkway|0955067988|3.72
+119|Phillip Stewart|24 Green Parkway|0520648140|3.99
+120|Richard Harper|575 Cardinal Terrace|0893890779|3.87
+121|Anne Cook|0 Browning Parkway|0434487490|8.02
+122|Deborah Morris|97 Old Gate Road|0329324011|4.24
+123|Alan Elliott|266 4th Place|0375775014|3.87
+124|Doris Turner|224 Helena Court|0821557849|6.07
+125|Jennifer Payne|83 Shelley Lane|0369093636|2.79
+126|Linda Mitchell|8 1st Pass|0722033385|5.37
+127|Karen Castillo|204 Melrose Parkway|0979096113|8.78
+128|Jennifer Morales|0 Ridgeview Place|0701708998|7.63
+129|Gary Kelly|43844 Clemons Court|0763904083|4.75
+130|Roy Stephens|90 Butternut Pass|0112224667|8.87
+131|Ruby Clark|8984 Pierstorff Court|0823638108|1.85
+132|Tina Burton|18 Dexter Center|0236561053|9.67
+133|Wayne Cole|452 Manitowish Plaza|0784562802|8.75
+134|Carolyn Burton|51 Sycamore Terrace|0565255693|9.64
+135|David Young|2908 Namekagon Drive|0546942858|2.87
+136|Robert Taylor|8 Trailsway Avenue|0837039372|6.11
+137|Eric Rose|43386 Lien Pass|0956354138|7.99
+138|Scott Stone|16 Schurz Plaza|0236386527|5.13
+139|Ashley Johnston|1 Heffernan Hill|0362395949|5.61
+140|Clarence Fernandez|60 Hoard Plaza|0197739356|8.1
+141|Jason Fuller|90993 Hoffman Road|0807196463|6.72
+142|Juan Gilbert|7 Transport Hill|0474583837|3.13
+143|Christina Wallace|903 Michigan Junction|0269444857|5.67
+144|Mildred Brooks|130 Summerview Alley|0745440920|7.55
+145|James Turner|26551 Bunker Hill Crossing|0317709909|1.98
+146|Scott Wagner|42 Pankratz Crossing|0333250616|4.55
+147|Ann Garza|3342 Golden Leaf Crossing|0388403256|1.13
+148|Robert Hicks|8958 Dryden Court|0360270600|8.61
+149|Phillip Clark|45077 Canary Parkway|0722175648|5.97
+150|Irene Taylor|0 New Castle Crossing|0907977222|4.64
+151|Charles Coleman|40 Declaration Street|0861239779|4.25
+152|Mary Banks|0084 John Wall Road|0775683640|2.24
+153|Adam Gonzales|73751 Bashford Avenue|0850612438|8.93
+154|Scott Murray|9 Warbler Avenue|0345776714|2.48
+155|Denise Washington|9 6th Pass|0608792197|9.91
+156|Phillip Ellis|4 Old Shore Pass|0933147137|7.27
+157|Scott Nelson|5390 Victoria Plaza|0408808285|7.26
+158|Aaron Riley|942 Morrow Way|0576193570|6.75
+159|Carl Collins|38894 Kropf Terrace|0373062410|2.02
+160|Ruby Gardner|6 Graceland Parkway|0933472561|9.22
+161|Joan Taylor|96 American Ash Parkway|0346770307|7.65
+162|Alan Martinez|0 Pawling Road|0978317415|6.4
+163|Jacqueline Hayes|4 Cardinal Parkway|0327291704|6.7
+164|Samuel Moore|1091 Chive Street|0401447097|5.65
+165|Albert Ruiz|162 Drewry Park|0654971475|1.12
+166|Frances Chavez|7 Becker Drive|0815968311|1.91
+167|Kenneth Gordon|624 Village Terrace|0507991410|8.24
+168|Louis Lee|52572 Valley Edge Drive|0908860802|5.07
+169|Eric Cunningham|125 Sundown Street|0440284642|2.49
+170|Anne Montgomery|4920 Derek Street|0948974955|2.04
+171|Joyce Robinson|441 Monument Street|0818206540|3.42
+172|Anne Smith|609 Memorial Lane|0814359982|7.87
+173|Clarence Carroll|8554 Anderson Center|0111842863|2.78
+174|Joshua Riley|25 Barby Center|0613473876|7.04
+175|Joe Montgomery|87 Washington Way|0526250392|6.62
+176|Howard Collins|2870 Porter Hill|0214176263|5.85
+177|Samuel Wood|548 Messerschmidt Drive|0595198726|6.84
+178|Steve Carter|2 Talmadge Terrace|0589168200|3.38
+179|Earl Nelson|66481 Lunder Junction|0624912163|5.88
+180|Alice Mccoy|3298 Utah Park|0684752073|1.44
+181|Arthur Davis|5955 Arizona Alley|0330837356|7.3
+182|Johnny Ellis|74483 Corry Hill|0963864795|9.49
+183|Patrick Reed|9836 Rowland Lane|0460612608|4.67
+184|Helen Reyes|45 Nancy Circle|0421194488|6.42
+185|James Richards|54152 Melvin Drive|0691233896|5.93
+186|Shawn Sanders|743 Mitchell Plaza|0429233334|2.53
+187|Juan Jordan|9 3rd Plaza|0972487975|3.41
+188|Rebecca Burton|3344 8th Terrace|0829401282|7.35
+189|Judy Harrison|06 Summerview Junction|0745465321|3.41
+190|Peter Andrews|41 5th Place|0316956953|1.23
+191|Marilyn Sullivan|98717 Beilfuss Drive|0610917112|5.26
+192|Kathy Palmer|18 Express Circle|0568230233|9.35
+193|Philip Patterson|18 Reindahl Hill|0413753751|4.16
+194|Anne Simmons|0 Saint Paul Court|0728993236|5.94
+195|Doris Jenkins|41645 Spaight Hill|0764128792|9.47
+196|Diana Holmes|921 Mayfield Trail|0537368115|8.97
+197|Timothy Rice|9264 Susan Way|0821199393|6.66
+198|Gerald Reid|98175 Troy Alley|0507460792|6.52
+199|Mildred Wallace|3715 Hayes Parkway|0172262643|7.21
+200|Juan Castillo|3203 Declaration Lane|0360954677|5.95
+201|Betty Jordan|237 Valley Edge Avenue|0186626008|1.62
+202|Samuel Hill|213 Mayfield Pass|0343211522|3.99
+203|Edward Kelly|0538 Maple Plaza|0961682654|7.28
+204|Scott Dean|4928 Blue Bill Park Drive|0197301504|4.61
+205|Steven Harris|9 Gateway Avenue|0967109239|3.27
+206|Jeremy Morrison|2255 Independence Place|0453005902|4.22
+207|Jack Mccoy|498 Hoffman Street|0813100306|9.55
+208|Earl Ortiz|21 Graedel Place|0586080819|4.47
+209|Donna Murray|63 Mayfield Place|0506060542|1.85
+210|Theresa Burton|38 Cottonwood Trail|0115938903|3.99
+211|Clarence Bailey|54 Kennedy Junction|0925083392|7.88
+212|Cheryl Reynolds|4769 Charing Cross Point|0473628969|5.91
+213|Timothy Jacobs|78876 2nd Point|0216118015|3.8
+214|Jane Foster|187 Thackeray Pass|0786490898|8.66
+215|Anna Harvey|0 Nobel Avenue|0388352306|5.96
+216|Martin Myers|605 Montana Plaza|0426689499|5.14
+217|Earl Johnston|62978 Carpenter Lane|0966451256|1.14
+218|Scott Welch|75302 Manley Avenue|0244073215|8.11
+219|Karen Moreno|75 Moose Plaza|0383126886|6.16
+220|Donna Austin|58 Clyde Gallagher Hill|0572508466|7.26
+221|Chris Cooper|41269 Lukken Road|0560234947|9.27
+222|Patricia Ross|3 Maryland Avenue|0125191927|3.47
+223|Christopher Edwards|42662 Autumn Leaf Trail|0993236546|3.63
+224|Steven Hernandez|0 Center Avenue|0936627371|6.66
+225|Evelyn Webb|6 Dryden Hill|0808190966|2.22
+226|Steve Stevens|71207 Menomonie Circle|0696523703|4.03
+227|Justin Wood|8327 Anzinger Point|0470547794|4.56
+228|Sean Watkins|93844 Blue Bill Park Circle|0942313173|9.09
+229|Elizabeth Carr|69 Marcy Trail|0362270912|7.97
+230|Scott Brooks|6 Anniversary Road|0910631433|1.87
+231|Martin Reid|93 Bay Street|0911834018|2.39
+232|Elizabeth Morris|8 Norway Maple Terrace|0750484611|8.56
+233|Larry Romero|9 Milwaukee Street|0496718110|3.46
+234|Brandon Reid|511 Everett Park|0880100555|4.91
+235|Judith Pierce|829 Graedel Lane|0780648025|9.87
+236|Steve Snyder|74 Fieldstone Road|0469341241|8.11
+237|Howard Carr|3 Kedzie Way|0232187814|1.28
+238|Robin Perkins|624 Michigan Point|0888130268|5.42
+239|Kathy Pierce|066 Trailsway Crossing|0215679204|4.59
+240|Tammy Cox|4590 Thierer Point|0718825674|2.98
+241|Willie Allen|29259 Bashford Center|0941310919|1.54
+242|Jean Matthews|57 Acker Hill|0999666675|3.31
+243|Timothy Roberts|152 Kedzie Street|0456744345|7.24
+244|Brian Scott|3987 Mendota Court|0416560230|8.84
+245|Larry Wright|8005 Sycamore Crossing|0158939424|8.35
+246|Nancy Holmes|484 Gulseth Plaza|0571998912|5.82
+247|Brian Morgan|26 Ohio Crossing|0120712752|8.09
+248|Willie Little|33001 Farragut Way|0446978589|1.23
+249|Eugene Smith|30 Sundown Lane|0575296390|6.37
+250|Sandra Pierce|67 Loomis Avenue|0830533919|5.11
+251|Benjamin Rose|297 Karstens Circle|0344754015|1.7
+252|Martin Kelly|6882 Sycamore Trail|0668416072|4.65
+253|Frances Jones|2 Trailsway Drive|0883132886|6.43
+254|Patricia Bishop|8297 Union Drive|0873059069|1.96
+255|Christina Collins|9 Dawn Parkway|0602609263|8.27
+256|Martha Montgomery|466 Longview Park|0639007344|7.76
+257|Jose Gonzalez|78 Ryan Road|0997827378|3.14
+258|Ruby Henry|74032 Old Shore Terrace|0355868991|8.07
+259|Katherine Burke|296 3rd Court|0556001514|3.38
+260|Edward Allen|57231 Commercial Pass|0637901486|1.1
+261|Sarah Russell|10421 Calypso Pass|0258060545|9.66
+262|Daniel Lane|3 Holy Cross Alley|0410481153|8.37
+263|Sarah Holmes|4844 Sugar Road|0436433925|6.94
+264|Stephen Gordon|68 Mifflin Circle|0859205568|4.39
+265|Louis Hall|2473 High Crossing Parkway|0939800046|7.55
+266|Ralph Nguyen|39 Spaight Crossing|0435219398|7.34
+267|Joshua Griffin|7888 Calypso Road|0613527418|6.97
+268|Sara Wood|84659 Arizona Parkway|0610668627|7.27
+269|Daniel Wilson|599 High Crossing Road|0288080940|4.21
+270|Kathy Henry|8 Lyons Drive|0267351860|3.17
+271|Janet Hughes|912 Riverside Terrace|0126669736|9.04
+272|Sandra Hernandez|0 Dahle Circle|0692982251|4.75
+273|Clarence Tucker|0 Jenna Parkway|0990867132|8.51
+274|Katherine Wood|489 Oriole Court|0208582625|8.37
+275|Jacqueline Burton|74 Goodland Point|0641474605|8.98
+276|Brenda Fernandez|71809 Kings Terrace|0173872200|3.54
+277|Jerry Edwards|2 Londonderry Court|0414288183|4.75
+278|Rose Kennedy|2 Northland Crossing|0727271341|9.45
+279|Lori Snyder|0481 Colorado Junction|0899597748|3.44
+280|Bobby Clark|945 Pankratz Way|0227593762|8.35
+281|Gloria Jones|2662 Miller Lane|0222904807|2.08
+282|Alice Ramirez|99329 Roxbury Pass|0532122933|9.04
+283|Teresa Walker|255 Ryan Plaza|0531298177|2.21
+284|David Campbell|9 Randy Plaza|0820797738|2.55
+285|Scott Phillips|32 Dayton Avenue|0697116561|8.67
+286|Marilyn Snyder|22 Warbler Crossing|0187529911|3.21
+287|Jose Collins|0 Scott Junction|0756946537|7.66
+288|Evelyn Ramos|443 Village Green Parkway|0881458305|2.39
+289|Aaron Chapman|806 Moland Pass|0432553625|1.0
+290|Julia Reid|1 Upham Parkway|0261708977|6.77
+291|Helen Romero|6 Tennyson Road|0580944060|5.33
+292|Sharon Scott|25 Springs Junction|0494302061|8.37
+293|Patricia Richards|37581 4th Circle|0151819225|7.04
+294|James Andrews|43 Everett Court|0970148931|5.05
+295|Howard Sanders|2536 Sutteridge Court|0370654231|7.6
+296|Benjamin Martin|0 Esker Point|0677733159|6.56
+297|Sarah Green|4568 Northwestern Alley|0535422945|4.26
+298|Carlos Jacobs|8 Loomis Junction|0316496826|1.37
+299|Marilyn Woods|791 Stephen Park|0603500501|5.6
+300|Carl Johnston|2107 Farwell Crossing|0398206342|4.22
+301|Sarah Foster|4 Lillian Hill|0343168185|5.32
+302|Billy Harris|584 North Junction|0902921644|5.31
+303|Eric Lynch|1 Bobwhite Street|0490596894|8.46
+304|Donald Hunter|12 Ronald Regan Way|0218827755|7.76
+305|Matthew Ramos|961 Park Meadow Parkway|0612611917|1.16
+306|Frank Howell|75 Lakeland Point|0341125162|2.02
+307|Jerry Crawford|7 Hovde Street|0340053408|8.67
+308|Ashley Murray|177 Ridgeview Crossing|0980235691|8.68
+309|Karen James|05625 Shopko Alley|0558013712|7.54
+310|Alice Wilson|59799 Wayridge Street|0817067954|4.81
+311|Beverly Stanley|7065 Anzinger Center|0427678533|4.94
+312|Sara Collins|1 Commercial Plaza|0518422723|9.08
+313|Billy Scott|922 Sherman Avenue|0431120916|2.31
+314|Jerry Johnson|69 Reinke Hill|0711216165|4.12
+315|Sharon Collins|5821 Sutteridge Park|0996284064|2.55
+316|Steve Andrews|9 Sugar Road|0171645532|1.69
+317|Dorothy Smith|49 Westport Point|0482088542|5.64
+318|Lois Morales|881 Oxford Drive|0311500616|8.13
+319|Russell Brown|746 Fairview Pass|0204975701|9.76
+320|Elizabeth Scott|321 Norway Maple Circle|0110031498|8.62
+321|Antonio Arnold|28 Graedel Lane|0400027555|2.34
+322|John Tucker|377 Schmedeman Circle|0187496864|9.75
+323|Tina Adams|366 Dryden Plaza|0473669058|6.76
+324|Harold Richards|3 Briar Crest Pass|0800378511|6.65
+325|Joyce Collins|943 Portage Alley|0383580336|2.09
+326|Laura Williams|3080 Brentwood Crossing|0395113920|5.32
+327|Mark Arnold|81 Kingsford Place|0762923040|9.83
+328|Mildred Stone|85 Farmco Parkway|0572546065|2.08
+329|Christine Boyd|066 Fairfield Place|0895480759|2.23
+330|Louis Owens|2584 Luster Place|0613778973|4.25
+331|Eugene Walker|49328 Blackbird Alley|0876548653|5.62
+332|Antonio Ramos|2050 Prentice Point|0808791542|6.69
+333|Brenda Warren|7 Pine View Place|0908466585|3.94
+334|Louis Freeman|1 Cordelia Plaza|0517370419|9.9
+335|Stephen Murphy|79 Pennsylvania Court|0387159885|8.23
+336|Michelle Howard|17 Brentwood Plaza|0579700519|9.15
+337|Mary Rose|437 Ohio Crossing|0497053158|3.78
+338|Eric Cox|1 Mesta Road|0249576120|4.16
+339|Rachel Watkins|24 Bartelt Plaza|0320633067|4.72
+340|Janice Robertson|01 Spaight Avenue|0637754288|8.76
+341|Clarence Alexander|4 Toban Avenue|0197311929|6.11
+342|Andrew Andrews|2 Anzinger Hill|0678655258|7.44
+343|Fred Wells|7224 Corscot Avenue|0519452327|7.02
+344|Thomas Warren|28 Prentice Circle|0569311843|1.77
+345|Alan Holmes|47 Lake View Court|0103312988|1.67
+346|John Rice|7 Colorado Street|0787309163|2.76
+347|Rose Hamilton|05 Porter Hill|0873553201|8.17
+348|Wayne Armstrong|97 Derek Pass|0927301925|8.19
+349|Henry Jacobs|7 Raven Lane|0780656104|9.53
+350|Gary Cunningham|75 Kennedy Point|0550903375|1.66
+351|Patricia Campbell|98794 Del Mar Street|0814610616|6.92
+352|Patricia Moore|7273 Di Loreto Street|0883536466|9.03
+353|Donald Young|6 Scoville Pass|0294571140|2.54
+354|Walter Carter|76 Fordem Circle|0574732225|4.39
+355|Donald Mason|1 Fulton Street|0778265930|8.46
+356|Margaret Martin|4654 Garrison Street|0154790306|3.13
+357|Paula Olson|2 Golf Crossing|0939348562|5.5
+358|Sarah Barnes|528 Sutteridge Circle|0781060225|4.78
+359|Louise Price|01 Hoepker Circle|0256816150|9.01
+360|Billy Hicks|97 Fair Oaks Park|0505805636|7.94
+361|Emily Watkins|88 Hanson Trail|0181313664|8.53
+362|Anne Coleman|69 Golf Lane|0479710032|5.94
+363|Carlos Reid|0 Stang Parkway|0850001562|9.5
+364|Jane Phillips|5 Kennedy Point|0439890514|8.74
+365|Keith Washington|7914 Calypso Crossing|0799713820|2.98
+366|Douglas Evans|5767 Crowley Court|0208721569|4.15
+367|Joshua Riley|2631 Thompson Circle|0808647942|6.28
+368|Tina Perkins|52 Golf Plaza|0553361369|8.73
+369|Louis Stevens|94 Sutherland Drive|0312683396|2.08
+370|Patrick Morrison|9 Kings Park|0732313927|1.86
+371|Joshua Moore|37894 Raven Plaza|0548543364|5.23
+372|Antonio Martinez|193 Riverside Center|0372377553|9.58
+373|Ronald Bryant|28 Derek Plaza|0159203906|2.48
+374|Linda Martinez|39859 Morrow Plaza|0907855813|5.38
+375|Jack Gomez|6649 Pawling Place|0501334063|9.03
+376|Roy Bailey|33 Westerfield Court|0302036413|4.85
+377|Jessica Gardner|990 North Park|0932390081|2.44
+378|Paul Allen|8827 Oakridge Park|0752791929|4.45
+379|Pamela Franklin|13796 Green Ridge Lane|0877540125|4.74
+380|Sarah Marshall|75670 Sloan Hill|0434397864|9.74
+381|Lillian Myers|0 Loeprich Way|0396881727|7.32
+382|Robert Dunn|258 Welch Hill|0135844179|4.05
+383|Albert Ellis|2 Ridge Oak Hill|0447041008|8.66
+384|Lillian Wilson|56175 Dryden Hill|0224523074|6.77
+385|Jonathan Kelly|5 4th Junction|0839907019|2.44
+386|Janet Wagner|8248 Leroy Way|0213015056|5.88
+387|Julia Romero|350 American Ash Circle|0467470747|7.04
+388|Walter Alvarez|2863 Vidon Road|0420493699|2.18
+389|Mary Howell|41317 Hoepker Street|0936534868|3.46
+390|Eugene Cruz|2 Vidon Alley|0722974125|1.57
+391|Donna Hernandez|06 1st Hill|0856658759|6.28
+392|Shawn Foster|7693 Sycamore Terrace|0460081174|1.86
+393|Earl Phillips|503 Dorton Way|0631436062|8.2
+394|Ryan Jones|458 Fisk Terrace|0201968369|7.45
+395|Jimmy Webb|3 Morningstar Terrace|0967467808|2.25
+396|Ronald Lewis|6 Grasskamp Place|0643750860|6.25
+397|Wanda Howard|3170 Birchwood Way|0434680154|8.66
+398|Ruth Rogers|9194 Jay Park|0180562025|9.42
+399|Timothy Gilbert|2631 Eagle Crest Avenue|0351592101|9.68
+400|Tammy Matthews|9012 Springview Road|0270500929|4.11
+401|Christine Campbell|9573 Stang Crossing|0153328658|1.94
+402|Sharon Fox|783 Larry Junction|0744042045|5.3
+403|Gregory Ferguson|5 Sommers Circle|0637436024|7.98
+404|Wanda Flores|24477 Del Mar Parkway|0166390969|3.22
+405|Julie Murphy|09845 Paget Junction|0756561332|4.52
+406|Judith Baker|5 Holmberg Street|0222880825|7.51
+407|Jerry Olson|1 Sherman Pass|0675693869|9.1
+408|Arthur Burns|6449 Sutherland Center|0454818419|6.09
+409|Scott Richardson|99645 Sutherland Trail|0626234250|2.25
+410|Joseph Ryan|1024 Bunker Hill Street|0313599222|5.73
+411|Jeffrey Knight|065 Starling Lane|0535142834|6.2
+412|Judith Henderson|53 Merry Hill|0273347447|2.34
+413|Willie Young|743 Washington Trail|0702924411|3.75
+414|Rachel Fowler|05 Gerald Point|0861139003|2.17
+415|Arthur Morgan|227 Oak Valley Street|0989942416|7.64
+416|Janice Martin|6918 Clyde Gallagher Trail|0179833931|4.14
+417|Larry Jordan|99405 Jackson Terrace|0390658800|4.16
+418|Samuel Welch|12470 Summer Ridge Crossing|0206321961|1.36
+419|Wanda Palmer|4536 Farwell Place|0883519714|5.0
+420|Elizabeth Watkins|87570 Loeprich Court|0998525110|1.65
+421|Joan Miller|7683 Melody Plaza|0358931196|8.38
+422|Samuel Ray|48 Susan Lane|0930811030|5.75
+423|Shirley Reyes|85485 Eastlawn Street|0199253032|2.19
+424|Jessica Cooper|91 Hayes Avenue|0721607477|2.06
+425|Ann Davis|23 Green Ridge Place|0912499825|8.23
+426|Jesse Garza|5048 Cardinal Road|0565293085|1.45
+427|Stephanie Rodriguez|2641 8th Lane|0619271943|1.87
+428|Albert Fuller|44 Melrose Park|0202757582|3.32
+429|Juan Morales|9 Onsgard Place|0522678168|4.82
+430|Philip Coleman|0062 Dwight Place|0536144355|3.43
+431|Ruby Collins|66 Rigney Park|0150784781|3.45
+432|Aaron Gray|42497 Nancy Trail|0530952824|5.15
+433|Phillip Garcia|770 Montana Drive|0569643581|2.08
+434|Annie Howell|64517 Linden Trail|0633823960|7.37
+435|Gary Warren|51904 Algoma Pass|0345391927|5.42
+436|Kathryn Rodriguez|610 Prairie Rose Lane|0257192827|7.93
+437|Arthur Rivera|6164 Mallory Place|0671972094|7.94
+438|Joyce Vasquez|72 Sachs Park|0495373094|1.68
+439|Willie Willis|49814 Swallow Hill|0554436258|9.21
+440|Kathleen Bailey|80787 American Point|0253025891|2.84
+441|Lillian Montgomery|94883 Towne Place|0870335807|2.61
+442|Chris Sullivan|9 5th Parkway|0668012283|2.52
+443|Rachel Freeman|5915 Fisk Center|0974026885|4.03
+444|Kathryn Shaw|1594 Barby Pass|0994788231|6.08
+445|Ann Rivera|4 Logan Crossing|0514546258|9.98
+446|Louise Reyes|4 Cottonwood Court|0443460298|8.78
+447|Julie Austin|0 International Junction|0835249553|7.99
+448|Susan Dixon|5065 Mcguire Trail|0312867340|6.02
+449|Roger Chapman|70 Elmside Court|0384129400|8.4
+450|Eugene Rodriguez|02681 Swallow Drive|0901515439|3.16
+451|Paula Lane|85 Norway Maple Pass|0404819493|9.17
+452|James Vasquez|11592 Heffernan Avenue|0764473188|4.76
+453|Paul Duncan|2 Florence Crossing|0934609050|1.7
+454|Catherine Morris|97 Debs Court|0726679353|6.48
+455|Clarence Diaz|2 Thierer Street|0695192855|2.63
+456|Amanda Johnston|0 Cottonwood Drive|0953685956|1.93
+457|Annie Arnold|44 Eliot Center|0201618713|1.23
+458|Henry Morrison|22 Macpherson Alley|0952447986|5.83
+459|Earl Matthews|15617 Mallard Crossing|0282802896|7.31
+460|Joe Washington|3973 Briar Crest Street|0966651399|4.52
+461|Denise Harvey|4 Forest Hill|0778592324|9.28
+462|John Wilson|68 Arkansas Plaza|0346597852|3.06
+463|Billy Bennett|77732 Mayer Crossing|0220887554|1.4
+464|Steven Woods|9 American Alley|0688727406|9.23
+465|Kathryn Reyes|2 Ronald Regan Plaza|0848607335|7.86
+466|Robin Carr|41174 Warner Terrace|0347764747|2.19
+467|Jacqueline Freeman|3 Canary Drive|0770780883|1.14
+468|Lillian Castillo|4 Kings Center|0859260906|4.02
+469|Larry Lewis|49306 6th Terrace|0370737042|1.1
+470|Ralph Sanchez|67604 Grover Circle|0756733672|2.09
+471|Barbara Watson|35374 Bluestem Pass|0774487370|3.62
+472|Philip Morrison|8137 Granby Plaza|0352897381|5.48
+473|Nancy Watkins|6976 Center Junction|0142701162|9.03
+474|Frank Nelson|16 Sachs Place|0963892108|9.8
+475|Craig West|12 Weeping Birch Junction|0872270109|2.38
+476|Laura Lynch|2 Charing Cross Street|0385079062|6.27
+477|Wayne Bennett|61597 Arapahoe Way|0572468066|5.82
+478|Susan Carpenter|32674 Elka Trail|0101948851|2.63
+479|Ernest Williams|302 Loeprich Court|0226286101|2.28
+480|Virginia Rogers|11 Vahlen Circle|0750907196|6.99
+481|Keith Miller|51 Grayhawk Road|0898368877|1.98
+482|Theresa Montgomery|6 Vera Alley|0688879667|6.83
+483|Lisa Dunn|0586 Northridge Road|0308316410|7.68
+484|Andrea Wagner|59475 Acker Point|0770227700|4.48
+485|Jonathan Gomez|2 Evergreen Junction|0925263348|8.56
+486|Carlos Matthews|75281 John Wall Street|0902671211|2.85
+487|Billy Alvarez|0021 Knutson Circle|0640133969|4.72
+488|Jonathan Lawrence|705 Michigan Way|0127769212|3.38
+489|Denise Perkins|0 Upham Drive|0897752273|4.69
+490|Ryan Armstrong|71676 Hoard Junction|0423448907|2.72
+491|Joe Davis|048 Burrows Pass|0799859012|1.42
+492|Jane Phillips|8275 Rieder Park|0719168329|7.43
+493|Norma Robinson|7721 Oak Valley Crossing|0981327575|1.85
+494|Jacqueline Franklin|2008 Fairfield Lane|0949253572|1.03
+495|Jimmy Nichols|95655 Paget Place|0645450269|9.37
+496|Todd Wood|3536 Sutteridge Crossing|0782292154|2.65
+497|Gregory Stevens|502 Buhler Park|0290341043|4.21
+498|Bonnie Harvey|41396 Sachs Avenue|0211285812|6.15
+499|Chris Miller|09 Ridge Oak Plaza|0554688990|9.82
+500|Anne Fisher|38 Prairieview Parkway|0834295931|7.13
+501|Paul Myers|61 Summit Circle|0550808676|2.63
+502|Jessica Peters|39610 Declaration Pass|0753261514|6.09
+503|Eugene Cooper|63351 Erie Alley|0359123626|5.96
+504|Peter Carter|51 Milwaukee Avenue|0168119566|6.65
+505|Philip Mills|8 Clemons Parkway|0402118947|2.63
+506|Jane Williamson|2055 Schurz Park|0269979330|6.54
+507|Robin Sims|02612 Kedzie Hill|0817693044|1.64
+508|Walter Hunt|41717 Autumn Leaf Alley|0714566666|1.44
+509|Samuel Marshall|39 Lien Way|0334659527|3.56
+510|Edward Stone|35 Mallory Hill|0842138990|2.27
+511|Jeffrey Myers|38 Cherokee Way|0358755156|8.32
+512|Phyllis James|401 Killdeer Alley|0605564843|6.27
+513|Patricia Walker|9 Veith Pass|0693519910|3.58
+514|Mildred Welch|50 Troy Drive|0832524866|8.68
+515|Kevin Martinez|78 Cody Point|0224118748|5.2
+516|Joseph Ferguson|6190 Daystar Trail|0300566346|3.24
+517|Jesse Richardson|62435 Vera Hill|0512693519|6.77
+518|Linda Little|0 Anzinger Park|0282198243|8.78
+519|Laura Richardson|8 Fair Oaks Trail|0229076923|8.39
+520|Carlos Ward|6 Pierstorff Alley|0314369330|3.07
+521|Nicole Nelson|68524 North Court|0695682835|7.85
+522|Billy Clark|326 1st Point|0325024778|5.67
+523|Eugene Reid|25 Briar Crest Terrace|0438355398|6.48
+524|Henry Ramirez|773 Evergreen Crossing|0567737660|1.36
+525|Rose Hill|0552 Browning Crossing|0497435147|6.09
+526|Jack James|37 Hintze Court|0375837957|7.18
+527|Brian Torres|082 Spenser Hill|0368233186|1.69
+528|Joyce Thomas|1156 Lien Center|0408597805|7.18
+529|Harry Andrews|1936 Little Fleur Trail|0624402637|2.89
+530|Carl Bailey|00 Fulton Way|0124958101|5.67
+531|Antonio Dean|8032 Arkansas Circle|0415455937|9.9
+532|Brandon Moore|982 Northfield Place|0708840767|8.24
+533|Catherine Reid|305 Surrey Street|0853783120|9.54
+534|Wayne Warren|40768 Susan Lane|0156160044|2.1
+535|Benjamin Hawkins|93 Homewood Center|0294241801|2.16
+536|Phyllis Kim|1 Eggendart Avenue|0761011783|3.85
+537|Steven Morrison|6880 Boyd Trail|0246052866|5.79
+538|Raymond Myers|5 Wayridge Lane|0700860957|3.11
+539|Russell Kennedy|8903 Sauthoff Street|0357076641|1.0
+540|Sharon Gilbert|1 Logan Junction|0743021398|6.51
+541|Melissa Weaver|813 Arkansas Terrace|0492497834|5.74
+542|Earl Allen|01083 Graedel Plaza|0551453540|9.43
+543|Carolyn Ray|7 Crescent Oaks Drive|0320562443|9.32
+544|Paula Morris|1260 Kipling Parkway|0978800223|6.89
+545|Brenda Scott|04241 Chinook Pass|0314447971|1.78
+546|Shirley Willis|496 Boyd Hill|0511479981|9.16
+547|Dennis Fowler|9641 Meadow Vale Street|0299417266|6.8
+548|Jose Woods|4124 Portage Avenue|0177268817|8.81
+549|Marie Washington|1 Hansons Parkway|0954556640|9.75
+550|Joan Jordan|7 Mendota Lane|0700931414|6.51
+551|Cheryl Hudson|03164 Grasskamp Parkway|0372959355|6.73
+552|Henry Carr|22514 Meadow Vale Street|0882565070|9.77
+553|Carol Matthews|0334 Lawn Circle|0557770838|2.04
+554|Theresa Scott|4 Lotheville Circle|0459511829|2.22
+555|Charles Wilson|3 Bobwhite Parkway|0976470917|2.74
+556|James Ryan|716 Sutteridge Point|0925835764|2.71
+557|Kelly Ford|35 Artisan Terrace|0252171427|7.35
+558|Jonathan Knight|8756 Fairfield Circle|0582467590|9.14
+559|Joyce Hanson|3 Prentice Crossing|0526816483|1.36
+560|John Rogers|182 Mendota Avenue|0378612036|8.15
+561|Lisa Garza|5902 Glacier Hill Terrace|0727545771|2.77
+562|Doris White|44782 Russell Hill|0155049550|5.27
+563|Craig Burns|694 Eastwood Trail|0269197220|1.38
+564|Anna Lawrence|27111 Magdeline Avenue|0982082688|7.26
+565|Alan Garcia|0 Corscot Park|0998370940|7.35
+566|Gregory Ford|21 Pond Pass|0688466566|2.95
+567|Jennifer Carter|33754 Emmet Avenue|0878854790|4.51
+568|Gary Frazier|8013 Nancy Park|0801422463|4.08
+569|Maria Baker|3066 Basil Trail|0871311135|5.34
+570|Christina Campbell|6160 Arrowood Way|0648803713|6.94
+571|Donald Brooks|1 Cherokee Pass|0631709056|8.84
+572|Jeffrey Powell|7 Weeping Birch Lane|0224063846|7.01
+573|Kevin Carroll|46 Pierstorff Plaza|0644501362|2.97
+574|Joseph Hudson|05646 Muir Lane|0338980389|1.74
+575|Michael Scott|9519 Express Court|0570936255|8.89
+576|Richard Baker|5931 2nd Drive|0340151602|5.92
+577|Louis Richardson|4 Luster Court|0388796497|1.15
+578|Aaron Mendoza|0 Warrior Alley|0640166995|2.24
+579|Tammy Evans|4907 Graceland Plaza|0364609976|8.28
+580|Juan George|256 Ilene Court|0877356915|3.47
+581|Angela Parker|4 Northland Circle|0110155896|7.92
+582|Lawrence Howell|36558 3rd Park|0985303677|5.2
+583|Shawn Robertson|2138 Bartelt Junction|0453080696|3.38
+584|Rebecca Austin|70 Sommers Alley|0721755667|1.26
+585|Henry Washington|9717 Stone Corner Lane|0871833159|7.23
+586|Rachel Spencer|0192 Eggendart Pass|0664883117|5.18
+587|Gloria Austin|5 Leroy Center|0939484190|8.15
+588|Nicole Palmer|3899 Jana Circle|0704749308|9.56
+589|Christopher Hawkins|50 Judy Court|0804865587|8.92
+590|Jack Banks|4172 Fremont Crossing|0250572887|4.01
+591|Bobby Ortiz|41999 Moose Place|0548533078|5.52
+592|Christopher Frazier|7 Warrior Plaza|0550079722|6.35
+593|Barbara Martin|4 Kipling Parkway|0209927191|7.25
+594|Karen Cunningham|37 Mariners Cove Plaza|0846655059|8.72
+595|Lillian Morrison|28067 Towne Parkway|0328598425|5.03
+596|Carl Jackson|2477 Pierstorff Place|0876864149|4.61
+597|Antonio Matthews|6 Granby Point|0637360908|4.84
+598|Gloria Turner|6 Everett Crossing|0703658111|8.17
+599|Bruce Lynch|8 Eagle Crest Trail|0110495672|6.81
+600|Robert Johnson|254 1st Avenue|0873159662|2.85
+601|Daniel Henry|50665 Birchwood Drive|0952976106|6.82
+602|Carlos Olson|50 Shoshone Way|0771986854|1.06
+603|Carolyn Ross|7 Mallory Avenue|0417788682|9.4
+604|Doris Wright|072 Anhalt Court|0616266300|7.18
+605|Carolyn Olson|0 Summer Ridge Center|0774830273|3.2
+606|Karen Wilson|16378 Pennsylvania Lane|0431025802|6.82
+607|Anne Nichols|4 Del Sol Way|0126688977|5.41
+608|Tina Cruz|6 Derek Street|0410325822|3.12
+609|Alan Roberts|8 Longview Alley|0764392163|9.98
+610|Jack Ross|5 Waywood Junction|0754357474|8.3
+611|Bruce Jordan|106 Menomonie Way|0961919854|2.25
+612|Donald Foster|7547 Paget Drive|0783419630|8.82
+613|Irene Morris|941 Arapahoe Court|0185845610|6.56
+614|Craig Reed|1 Dixon Avenue|0270668048|6.41
+615|Samuel Fox|83776 Bowman Hill|0414420080|6.57
+616|Patrick Wheeler|8565 Hagan Parkway|0500725746|3.47
+617|Teresa Flores|79 Kim Junction|0618745172|7.92
+618|Kathy Morrison|98 North Drive|0915801038|4.8
+619|Kevin Cooper|0824 Acker Junction|0270592321|1.73
+620|Jean Knight|56147 Warrior Drive|0122841285|6.36
+621|Louise Hunter|90 Fair Oaks Street|0935106784|8.79
+622|Catherine Stanley|07 School Place|0483841707|9.38
+623|Tina Matthews|181 Carpenter Parkway|0395067181|3.37
+624|Debra Daniels|7391 Marquette Place|0126865484|1.77
+625|Heather Mills|954 North Pass|0276156749|6.09
+626|James Porter|56106 Clove Junction|0824717510|5.16
+627|Thomas Graham|5 Mendota Way|0843171148|6.81
+628|Denise Simpson|73415 Aberg Terrace|0615112222|3.79
+629|Melissa Washington|45 Merry Alley|0235975249|4.75
+630|Jessica Scott|41366 Mallard Terrace|0146808074|4.46
+631|Doris Frazier|942 Debs Center|0574616300|2.37
+632|Roy Foster|336 Vidon Drive|0449805496|3.82
+633|Jeremy Jacobs|5 Mayfield Pass|0283141497|4.62
+634|Thomas Anderson|5319 Petterle Parkway|0264118223|2.94
+635|Elizabeth Wheeler|8 Eagle Crest Center|0671611301|2.59
+636|Denise Olson|108 Summer Ridge Junction|0855241502|2.61
+637|Alice West|23 Onsgard Park|0168502298|2.97
+638|Alan Shaw|92246 Summerview Drive|0108749890|2.65
+639|Martin Dunn|1 Clyde Gallagher Junction|0666248424|9.04
+640|Timothy Fowler|3629 Hollow Ridge Place|0769588016|7.95
+641|Joan Martin|4 Ramsey Pass|0185890045|8.15
+642|Frances Medina|62 Holmberg Road|0118348741|3.48
+643|Ralph Duncan|10 Lyons Parkway|0477996292|1.56
+644|Sara Stephens|567 Schiller Crossing|0102191837|7.76
+645|Evelyn Brown|6 Donald Circle|0646164227|9.81
+646|Antonio Wallace|1 Sachs Center|0536551976|2.69
+647|Roger Cole|72149 Tennyson Drive|0631184007|9.43
+648|Jean Reynolds|8 Stone Corner Parkway|0251321770|9.82
+649|Christopher Baker|9932 Autumn Leaf Circle|0247644420|9.71
+650|Kathleen Peterson|8 Canary Avenue|0918263900|9.45
+651|Jessica Banks|4 Atwood Way|0208894911|9.69
+652|Thomas Cooper|19 Mesta Pass|0252211064|1.91
+653|Patricia Mcdonald|02 Oak Valley Plaza|0582815588|8.39
+654|Ryan Nelson|7 Almo Alley|0212932952|8.69
+655|Ronald Warren|5647 Sheridan Terrace|0620983415|4.95
+656|Susan Peterson|0294 Reindahl Trail|0741061111|8.88
+657|Arthur Kelly|565 Blackbird Circle|0219230880|8.56
+658|Kevin Wright|9 Dovetail Junction|0245084420|9.91
+659|Anna Hudson|55649 Packers Avenue|0836677451|5.24
+660|Gloria Johnson|495 Hoepker Drive|0217297964|3.01
+661|Ruth Robertson|5042 Menomonie Center|0670887367|6.61
+662|Frank Gray|00 Sage Crossing|0927111311|3.98
+663|Mildred Moreno|6 Maywood Junction|0874241633|6.34
+664|Paula Spencer|93 Morning Road|0999168953|9.53
+665|Jane Hernandez|88 Judy Alley|0785226992|8.28
+666|Shawn George|91986 Sullivan Crossing|0114082612|8.72
+667|Harold Peters|386 Coolidge Terrace|0835503850|5.42
+668|Susan Holmes|2 Oneill Court|0827079780|7.03
+669|Roger Hawkins|357 Steensland Way|0914359066|5.61
+670|Janet Payne|2 Chive Center|0181462530|1.39
+671|Roger Reynolds|1 Oakridge Hill|0309180435|9.98
+672|Gerald Ford|63 Helena Park|0797292919|8.57
+673|Ruby Alexander|496 Maple Wood Way|0719430782|5.64
+674|Stephen Diaz|1940 Forest Dale Park|0934620267|9.47
+675|Irene Diaz|8043 Paget Parkway|0720614382|9.95
+676|Jerry Hughes|14973 New Castle Crossing|0548857245|7.72
+677|Frank Fisher|5092 Mesta Junction|0436683858|9.44
+678|Keith Cole|08 Tennyson Terrace|0549426070|9.36
+679|Amanda Diaz|71 Hintze Circle|0313361321|8.44
+680|Robert Porter|248 Trailsway Road|0368093348|5.44
+681|Justin King|05162 Arrowood Drive|0229241463|2.62
+682|Maria Martinez|7 Elgar Terrace|0643494422|3.35
+683|Emily Chavez|9 Westerfield Point|0223505136|3.38
+684|Edward Bell|46025 Sullivan Parkway|0447836214|2.03
+685|Stephanie Jacobs|3671 Beilfuss Way|0586904088|1.51
+686|Margaret Foster|0109 Spenser Way|0321367347|2.42
+687|Nicholas Simpson|159 Main Park|0802662770|5.67
+688|Marie Fowler|9 Village Alley|0419543275|6.91
+689|Lawrence Barnes|6 Marcy Circle|0989212239|3.7
+690|Michelle Coleman|61 South Way|0969429795|3.1
+691|Stephen Gonzales|8318 Tony Avenue|0713877904|6.57
+692|George Graham|5233 Linden Pass|0948886082|5.73
+693|Lori Ellis|325 Monterey Way|0117629259|4.32
+694|Ernest Lawrence|59 Crowley Street|0531979002|2.52
+695|Carl Day|06 West Point|0459283900|4.17
+696|Tammy Roberts|6791 Rieder Place|0680468967|8.98
+697|Scott Dixon|52027 Trailsway Road|0439237801|9.49
+698|Ruby Bennett|2 Center Park|0832665632|5.96
+699|Andrea Evans|211 Nevada Place|0653721821|5.41
+700|Juan Berry|0 Welch Alley|0667550481|4.69
+701|Linda Rice|03123 Rieder Parkway|0519208915|5.76
+702|Sharon Wood|4081 Bultman Park|0450660940|3.28
+703|Alan Anderson|19432 Lakeland Drive|0845478193|7.27
+704|Brenda Alvarez|1 Holy Cross Drive|0924471958|2.23
+705|Nicholas Gonzalez|3 School Crossing|0389562812|2.68
+706|Evelyn Spencer|6 Homewood Junction|0489627450|3.91
+707|Jeffrey Weaver|41649 Bayside Trail|0675925478|4.16
+708|Terry Gordon|25 Springview Plaza|0939177790|6.21
+709|Bobby Grant|90708 Dayton Way|0841801248|7.73
+710|Christine Austin|2 Florence Park|0760243410|5.26
+711|Todd Clark|602 Southridge Lane|0457963111|9.46
+712|Martha Clark|91373 Portage Parkway|0455466430|2.22
+713|Ernest Bowman|65 Oak Valley Trail|0405885582|4.43
+714|Terry Griffin|89 Lyons Court|0303206102|5.51
+715|Dennis Hicks|4466 Manufacturers Center|0773025952|2.46
+716|Ruth Stone|7 Carey Park|0164085441|9.93
+717|Judith Sullivan|621 Nelson Junction|0962410313|9.51
+718|Carolyn Ward|850 Lindbergh Trail|0417257997|2.81
+719|Terry Richardson|356 Londonderry Center|0954849398|9.77
+720|Shirley Kelley|8737 Maryland Center|0946206118|3.36
+721|Wayne Ray|35167 Kensington Point|0736433545|7.29
+722|Carolyn Russell|8 Maywood Court|0559932934|4.84
+723|Louise Bishop|003 Mitchell Parkway|0851924166|5.91
+724|Frank Hanson|5 Golf Point|0512797891|4.7
+725|Philip Hunt|47723 Texas Place|0207375734|8.49
+726|John Richardson|00080 Bartillon Point|0521748309|2.58
+727|Dorothy Morris|958 Scofield Parkway|0437861472|7.55
+728|Antonio Duncan|7059 Sloan Pass|0266792070|6.13
+729|Roy Murray|4329 East Alley|0308063697|5.54
+730|Juan Harvey|9 Stoughton Plaza|0541541380|7.77
+731|Daniel Wood|05083 Buell Court|0958168873|7.8
+732|Elizabeth Barnes|831 Florence Junction|0759296247|6.11
+733|Andrew Morales|178 Warbler Place|0210635433|1.88
+734|Amanda Watson|03606 Hintze Hill|0101326357|3.2
+735|Antonio Bradley|49755 Jenifer Terrace|0778835704|1.24
+736|Heather Boyd|4840 Buhler Street|0409873749|8.32
+737|Kathleen Burns|62 Florence Avenue|0613819767|8.47
+738|Billy Hamilton|1 Fordem Place|0850244035|1.37
+739|Bobby Ryan|747 Kings Plaza|0526626581|9.13
+740|Dorothy Ramirez|294 Acker Place|0499351489|7.33
+741|Patrick Edwards|98 Bartillon Court|0253621040|2.15
+742|Gerald Sullivan|82128 Pearson Pass|0197607167|3.46
+743|Gregory Montgomery|629 Gateway Way|0604813762|2.22
+744|Jack Ryan|01810 West Center|0676733925|3.41
+745|Tina Bradley|8765 Crownhardt Circle|0123612250|6.74
+746|Virginia Welch|7351 Washington Court|0214070097|1.71
+747|Craig Smith|3076 Annamark Trail|0588647387|7.43
+748|Margaret Arnold|2 Hayes Parkway|0395800763|4.6
+749|Lisa Murray|7 Riverside Center|0718279129|7.99
+750|Andrew Duncan|024 Hazelcrest Plaza|0681989577|3.31
+751|Norma Hudson|5 Hallows Park|0283616615|5.79
+752|Marilyn Williamson|4 Columbus Avenue|0897747549|4.2
+753|Theresa Richardson|2840 Merry Circle|0573879739|4.99
+754|Marilyn Austin|301 Macpherson Way|0610102524|3.82
+755|Kimberly Dixon|753 East Center|0571047255|9.0
+756|Mark White|5650 Arrowood Hill|0276683478|6.8
+757|Judith Gibson|339 Kings Hill|0769608597|2.97
+758|Carlos Black|8 Loftsgordon Trail|0668423402|1.43
+759|Frank Alvarez|4096 Nelson Center|0817638731|2.79
+760|Carl Flores|54725 Farragut Junction|0752363001|9.1
+761|Larry Gray|73553 Basil Park|0398297919|7.42
+762|Martin Rose|1207 Loeprich Way|0878998137|9.85
+763|Annie Hunter|8 Lillian Way|0597036330|4.48
+764|Helen Cunningham|967 Knutson Drive|0380037246|2.84
+765|Laura Butler|5 Pine View Way|0877657819|8.99
+766|Joseph Willis|47812 Myrtle Place|0381189525|2.31
+767|Ruth Carter|48274 Reindahl Lane|0846272489|5.46
+768|Deborah Ray|38932 Lunder Crossing|0306113222|3.29
+769|Anthony Moreno|4 Talisman Trail|0981155459|6.9
+770|Paula Burns|69058 Vera Crossing|0941749080|7.08
+771|Ruby Murphy|5 Iowa Junction|0248417263|4.57
+772|Aaron Mcdonald|8785 Vidon Drive|0681518953|3.77
+773|Cheryl Owens|43 Comanche Court|0512756783|3.21
+774|Martin Lewis|887 High Crossing Way|0864332476|6.2
+775|Sandra Rivera|6 Fordem Circle|0720269962|6.02
+776|Raymond Dunn|97645 Fieldstone Trail|0800703315|9.48
+777|Russell Ward|1584 Packers Trail|0763467797|6.65
+778|Bobby Edwards|993 Corscot Plaza|0388521733|4.05
+779|Jane Allen|1584 Iowa Avenue|0603321304|3.43
+780|Ernest Campbell|963 Independence Circle|0379302137|1.7
+781|Martin Rodriguez|23041 Bluestem Parkway|0530413191|4.55
+782|Lawrence Hughes|5396 Meadow Valley Circle|0547716565|2.58
+783|Dennis Bowman|96818 Arizona Pass|0500176570|8.5
+784|Walter Scott|88074 Arizona Court|0565857990|2.39
+785|Bonnie Hanson|48 Westport Center|0793108424|2.21
+786|Catherine Pierce|7896 Rockefeller Parkway|0716899926|4.56
+787|Albert Burton|8265 Basil Plaza|0808912977|9.52
+788|Keith Murray|49 Lakewood Plaza|0222409402|2.75
+789|Ryan Rodriguez|705 Mallory Avenue|0623636585|2.21
+790|Annie Duncan|501 Kedzie Place|0138120868|7.24
+791|Bruce Olson|9 Clemons Court|0708041229|7.13
+792|Johnny Watson|6075 Fair Oaks Street|0679622219|6.09
+793|Larry Sanders|6 Upham Terrace|0528914434|2.55
+794|Virginia Olson|873 Sunnyside Plaza|0561775963|3.16
+795|Nancy Mccoy|43 Macpherson Way|0337585810|5.98
+796|Arthur Riley|8649 Hudson Parkway|0809280914|1.48
+797|Brandon Wilson|1157 Transport Avenue|0496317443|6.2
+798|Ryan Roberts|78464 Calypso Way|0777868675|9.29
+799|Terry Chavez|642 Mitchell Trail|0258321731|8.83
+800|Anna Hunt|4 4th Lane|0780157496|9.96
+801|Pamela Moore|6 Heath Center|0967717403|1.42
+802|Mary Adams|40 Red Cloud Circle|0145070708|9.0
+803|Jonathan Simpson|53 Superior Circle|0130957496|4.05
+804|Jerry Lawrence|11 Manufacturers Drive|0995019838|4.57
+805|Deborah Hamilton|10864 Portage Junction|0285989190|3.58
+806|Linda Wheeler|0586 Stuart Street|0393561981|7.58
+807|Billy Burns|3 Laurel Trail|0884747635|5.26
+808|Michelle Hall|30 Dennis Road|0699274593|3.07
+809|Albert Lynch|5406 Huxley Court|0743912053|2.0
+810|Steve Ryan|06896 Granby Junction|0278223535|8.07
+811|Carol Clark|54729 Walton Junction|0816592015|3.11
+812|Larry Mcdonald|489 Cherokee Park|0858069274|3.84
+813|William Lawson|86 Westport Circle|0812961212|2.4
+814|Eric Morales|87 Forest Dale Circle|0807595822|7.07
+815|Roy Taylor|105 Milwaukee Parkway|0927874984|7.05
+816|Donald Baker|03724 Golf View Street|0397857598|8.2
+817|Rebecca Dixon|6376 Waubesa Alley|0705556758|1.84
+818|Eric Carter|9933 Nelson Alley|0267270081|6.68
+819|Jerry Medina|3 Texas Plaza|0981889958|6.1
+820|Jean Harvey|32 Summerview Drive|0622091840|9.41
+821|Maria Ferguson|004 Shopko Pass|0657899195|3.21
+822|Dennis Chapman|36 Kenwood Crossing|0805272489|2.16
+823|Harry Ortiz|173 Packers Circle|0728615308|7.57
+824|Christine Perkins|88 Londonderry Alley|0697493969|6.98
+825|Victor Bailey|3 Arrowood Street|0359561089|9.0
+826|Robert Gordon|1 Oxford Drive|0851203642|3.93
+827|Ernest Payne|071 Canary Crossing|0488651037|4.74
+828|Douglas Green|6154 Hayes Place|0140095527|2.47
+829|Roger Taylor|8 Del Mar Drive|0567467983|2.01
+830|Lillian Edwards|77 Browning Plaza|0846232825|5.77
+831|Kathryn Roberts|49 Nancy Place|0629519862|9.32
+832|Robin Phillips|8375 David Drive|0178579710|1.48
+833|Bonnie Cooper|08 Hayes Park|0225134352|6.25
+834|William Fowler|425 Warner Way|0817874278|5.8
+835|Jack Snyder|00 Lukken Avenue|0368115724|6.32
+836|Kathryn Hunt|75313 Crescent Oaks Plaza|0235437285|9.93
+837|Barbara James|404 Gerald Plaza|0275134126|3.33
+838|Jason Barnes|41649 Chinook Court|0789852353|5.58
+839|Mark Diaz|4035 Monterey Center|0468883738|7.88
+840|Patricia Green|2379 Eagle Crest Court|0726595801|9.64
+841|Rebecca Bryant|02127 Red Cloud Circle|0966253249|4.97
+842|Michelle Murray|7 Sundown Junction|0483144118|3.61
+843|Gary Stewart|8612 Pine View Way|0660216226|9.54
+844|Kevin Gray|79134 Lerdahl Pass|0263237324|6.27
+845|Judith Jordan|395 Fieldstone Court|0786855087|2.73
+846|Kathy Ford|3548 Sauthoff Park|0459609172|9.93
+847|Justin Alexander|00 Oneill Center|0840552578|1.76
+848|Mark Henderson|7457 Esch Alley|0988080879|7.54
+849|Rachel Montgomery|63298 Milwaukee Lane|0731784597|8.02
+850|Victor Mills|3 Banding Place|0583970109|2.89
+851|Arthur Hill|6 International Drive|0539073045|2.63
+852|Kathryn Shaw|48 Rieder Road|0630999978|1.4
+853|Jason Flores|6 Dunning Trail|0709157612|8.87
+854|James Medina|50232 Del Sol Plaza|0682418423|8.36
+855|James Nichols|806 Toban Alley|0150513814|3.06
+856|Cheryl Moore|35 Dottie Center|0677100307|4.44
+857|Keith King|15696 Porter Court|0441939870|4.14
+858|Frances Gordon|5 Roth Pass|0582928118|9.9
+859|Emily Lopez|9267 Lien Court|0694823394|5.98
+860|Earl Green|695 Everett Circle|0424248114|7.67
+861|Donald Lynch|44619 Bartelt Court|0182180396|4.42
+862|Randy Jackson|03 Algoma Lane|0366030119|1.83
+863|Richard Robertson|197 Stuart Junction|0435762638|8.94
+864|Bonnie Lawson|27840 Derek Lane|0414571236|6.2
+865|Victor Kelley|657 Fuller Crossing|0399232367|3.14
+866|Mark Ortiz|37362 7th Circle|0220268427|3.78
+867|Amy Mason|89 Badeau Avenue|0115116703|6.54
+868|Juan Hill|30342 Northfield Pass|0767847632|6.81
+869|Jerry Gardner|43 Upham Drive|0549228741|1.14
+870|Heather Ellis|064 Rusk Circle|0303476616|4.9
+871|Jennifer Hamilton|6514 Sunbrook Point|0387946803|1.52
+872|Kathryn Sims|1410 Mifflin Hill|0168592653|1.78
+873|Benjamin Riley|21065 Mariners Cove Junction|0391225670|3.58
+874|Julie Long|77 Judy Alley|0330892326|9.9
+875|Rose Myers|9 Hayes Way|0730627345|5.0
+876|Brian Price|85696 Dorton Trail|0737867414|4.92
+877|Gerald Anderson|3 Michigan Junction|0370753636|3.91
+878|Amanda Cruz|12959 Cordelia Junction|0453014552|7.66
+879|Beverly Nguyen|4 Hansons Crossing|0707499788|5.85
+880|Timothy Watkins|3645 Lakewood Pass|0973601627|2.92
+881|Norma Wells|3752 Westport Lane|0684878618|3.9
+882|Marilyn Holmes|2055 Mcguire Junction|0567737467|4.49
+883|Ralph Bowman|48 Stang Center|0916468886|8.09
+884|Phillip Sims|38785 Susan Court|0696619125|7.61
+885|Joyce Shaw|1 Clarendon Hill|0145028393|5.25
+886|Jennifer Robertson|137 Schlimgen Crossing|0959560026|7.65
+887|Barbara Morgan|21828 Westport Court|0155071064|4.9
+888|Robert Wagner|46 Dapin Court|0557699700|4.77
+889|Joshua Williamson|2 Florence Place|0941436955|2.76
+890|Betty Cruz|5 Westerfield Center|0977707135|4.77
+891|Teresa Simmons|9476 Evergreen Pass|0803159158|4.28
+892|Teresa Gibson|89 Gateway Circle|0468068279|9.6
+893|Matthew Reid|0 Londonderry Hill|0522910658|4.49
+894|Ashley Carroll|11555 Victoria Crossing|0909882387|6.14
+895|Marie Rivera|4 Colorado Junction|0313406979|6.21
+896|Virginia Peters|0 Prentice Lane|0193962073|2.08
+897|Mark Wilson|434 Anniversary Terrace|0111615597|8.4
+898|Jack Collins|685 Dayton Street|0423079823|3.68
+899|Gary Day|988 Morrow Drive|0768496729|3.36
+900|Arthur Perry|06602 Hazelcrest Trail|0100228725|4.29
+901|Joshua Knight|975 Duke Crossing|0968903926|1.19
+902|Janice Young|1 Mayer Road|0476612658|6.92
+903|Donna Carter|9 Lyons Terrace|0505463980|3.19
+904|Jason Foster|3491 Grasskamp Parkway|0703255629|6.19
+905|Carl Cole|946 Tennyson Center|0542529369|8.96
+906|Joyce Flores|711 Hovde Terrace|0349370990|1.0
+907|Willie Hill|9 Algoma Place|0485713770|5.64
+908|Scott Freeman|300 Sundown Terrace|0726906696|5.6
+909|Raymond Brown|09432 Oneill Place|0272408417|2.08
+910|Richard Peters|631 Melrose Court|0668498452|2.53
+911|Diana Welch|0 Forster Court|0443361056|3.03
+912|Walter Torres|13 Clove Junction|0884176845|5.51
+913|Randy Reynolds|9137 Caliangt Junction|0658644907|2.64
+914|Emily Hayes|0134 Cardinal Crossing|0154326548|9.47
+915|Diane White|3 Corscot Terrace|0818024673|4.99
+916|Lori Rivera|3 Washington Point|0929129135|2.79
+917|Jeremy Romero|4 Morrow Street|0370695852|7.38
+918|Doris Wheeler|585 Colorado Crossing|0493923597|2.46
+919|Rose Lynch|593 Leroy Plaza|0547097639|3.93
+920|Harry Johnson|4143 Union Pass|0947591981|2.6
+921|Howard Medina|4880 Blackbird Lane|0376393122|4.28
+922|Howard Bishop|31 2nd Road|0338996964|1.88
+923|Terry Ellis|50086 Esch Park|0104983119|3.47
+924|Earl Griffin|2 Gale Circle|0217217900|5.11
+925|Samuel Bennett|58 Gulseth Hill|0595884500|5.91
+926|Teresa Stone|4 Fuller Junction|0661349736|4.11
+927|Wayne Hughes|19 Mcguire Alley|0237632864|1.54
+928|Steven Patterson|56419 High Crossing Place|0702426886|5.32
+929|Dennis Dixon|72661 Arapahoe Terrace|0460945010|8.73
+930|Billy Gonzales|62 Lawn Park|0650070266|4.51
+931|Denise Gordon|63419 Amoth Trail|0634547618|8.48
+932|Frances Warren|866 Dawn Court|0828052273|9.47
+933|Harold Oliver|88568 Saint Paul Hill|0790968916|2.87
+934|Sarah Cooper|86 Meadow Ridge Trail|0623092914|4.97
+935|Jessica Wagner|81210 Chinook Terrace|0741670470|6.25
+936|Louise Sullivan|57287 Carberry Road|0481802582|2.29
+937|Nicholas Scott|92 Huxley Hill|0522148454|7.14
+938|Johnny Anderson|53118 Donald Pass|0873180459|6.67
+939|Anne Watkins|67030 Katie Parkway|0714530670|5.68
+940|Kathryn Morgan|98836 Division Place|0976610075|5.47
+941|Sandra Harper|16 Dottie Alley|0892636792|4.49
+942|Randy Roberts|2280 Division Point|0602387445|1.26
+943|Patrick Morgan|59347 Onsgard Point|0402779601|5.54
+944|Betty Davis|93 Ridgeway Plaza|0128822096|4.29
+945|Bonnie Perez|9539 Main Pass|0773791253|6.29
+946|Steven Howard|4 Becker Place|0700092684|6.46
+947|Michael Murphy|818 Donald Avenue|0898486799|1.86
+948|Heather Marshall|4 Thierer Trail|0922589785|5.37
+949|Clarence Dean|989 Ronald Regan Road|0417145802|9.91
+950|Jeffrey Harvey|122 Elka Point|0324795671|3.6
+951|Richard Hudson|6277 Merchant Parkway|0775569146|8.63
+952|Heather Scott|88 Charing Cross Court|0140000156|5.68
+953|Judith Adams|481 Stephen Road|0512865579|4.76
+954|Kimberly Brown|990 8th Road|0771202582|1.66
+955|Julia Reynolds|116 Caliangt Terrace|0113684067|3.89
+956|Kathleen Scott|3702 Kennedy Street|0960554036|5.63
+957|Nancy Burke|3469 Eastlawn Parkway|0822115630|3.51
+958|Sharon Mccoy|60 Glendale Park|0561281712|2.37
+959|Bobby Hicks|6735 Anderson Point|0337026050|9.24
+960|Harry Lee|8665 3rd Way|0658422735|7.09
+961|Kevin Scott|4 Center Junction|0519650318|5.51
+962|Lori Campbell|50775 Pine View Hill|0646665237|2.39
+963|Sean Coleman|6805 Loftsgordon Parkway|0462032869|2.98
+964|Earl Olson|4716 Autumn Leaf Parkway|0289543900|9.73
+965|Tina Rodriguez|3 Pierstorff Alley|0966854887|9.61
+966|Eric Black|38 Bobwhite Lane|0291920554|8.41
+967|Marilyn Watkins|7 Sachs Street|0895501647|9.15
+968|Daniel Webb|41776 Waubesa Hill|0579721911|7.05
+969|Raymond Riley|7446 Warner Terrace|0562274427|9.83
+970|Douglas Adams|23712 Northwestern Hill|0905453481|3.57
+971|Diana Reyes|29 Gale Circle|0285527022|1.26
+972|Sharon Stevens|1814 Alpine Court|0577566354|4.43
+973|Michelle Kelly|82 Fremont Hill|0546233118|3.06
+974|Jerry Gonzalez|22806 Monument Junction|0196354072|1.09
+975|Wayne Mendoza|5432 Vera Crossing|0768208694|1.08
+976|Ralph Jackson|48234 Sloan Court|0238861305|8.76
+977|Peter Matthews|63927 Northport Plaza|0655526251|1.7
+978|Rachel Pierce|7792 Eastlawn Hill|0177225728|1.49
+979|Gregory Young|920 Kim Alley|0839561946|4.68
+980|Benjamin Morgan|80200 Marcy Crossing|0349322372|5.82
+981|James Chapman|945 Fieldstone Road|0383785734|6.31
+982|Joyce Cunningham|379 Montana Parkway|0398296514|8.91
+983|Shirley Franklin|76522 Logan Parkway|0720809220|2.52
+984|Phyllis Hayes|3 Veith Crossing|0103665630|3.5
+985|Kathryn Shaw|2 Mandrake Terrace|0438315743|4.99
+986|William Ward|20443 6th Way|0111810864|8.04
+987|Amy Rice|2 Green Hill|0385165026|8.13
+988|Arthur Howard|013 Vera Alley|0375005522|2.72
+989|Craig Kim|96 Ryan Trail|0728320151|1.6
+990|Pamela Burns|2288 Bartelt Way|0687845516|3.5
+991|Catherine Stanley|5 Mosinee Plaza|0527691968|9.71
+992|Willie Grant|37 Heath Street|0995471738|1.02
+993|Steven Garza|1299 1st Alley|0512540887|7.96
+994|Alice Webb|7517 Ridgeview Court|0615076456|1.55
+995|Ronald Hudson|6 Pawling Avenue|0996632301|1.01
+996|Kenneth Hill|1 Oneill Place|0874175344|4.53
+997|Brandon Ryan|71307 Blue Bill Park Trail|0240558387|4.02
+998|Steve Kennedy|677 Bonner Junction|0971564422|5.04
+999|Joe Morgan|9607 Marcy Trail|0140390989|2.05
+1000|Alan Ramirez|831 Homewood Plaza|0382030335|7.34

@@ -17,7 +17,6 @@ public class CandidateController extends AbstractController<Integer, Candidate> 
         super(validator, repository);
     }
 
-
     @Override
     public void addElement(String... args) throws MyException {
         super.addElement(args);
@@ -34,7 +33,7 @@ public class CandidateController extends AbstractController<Integer, Candidate> 
     }
 
     @Override
-    public Collection<Candidate> getAll() throws MyException {
+    public Collection<Candidate> getAll() {
         return super.getAll();
     }
 
@@ -42,8 +41,6 @@ public class CandidateController extends AbstractController<Integer, Candidate> 
     public void updateElement(String ID, String... args) throws MyException {
         super.updateElement(ID, args);
     }
-
-
 
 
     @Override

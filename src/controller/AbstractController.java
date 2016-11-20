@@ -10,7 +10,7 @@ import java.util.Collection;
 /**
  * Created by andrei on 11/6/2016.
  */
-public abstract class AbstractController<ID, E> implements IController<ID, E> {
+public abstract class AbstractController<ID, E>{
 
     protected IValidator<E> validator;
     protected IRepository<ID, E> repository;
@@ -28,32 +28,27 @@ public abstract class AbstractController<ID, E> implements IController<ID, E> {
         this.validator = validator;
     }
 
-    @Override
     public void addElement(String... args) throws MyException {
         E element = formatElement(args);
         validator.validate(element);
         repository.addElement(element);
     }
 
-    @Override
     public E removeElement(String ID) throws MyException {
         ID elementID = formatID(ID);
         return repository.removeElement(elementID);
     }
 
 
-    @Override
     public E getElement(String ID) throws MyException {
         ID elementID = formatID(ID);
         return repository.getElement(elementID);
     }
 
-    @Override
-    public Collection<E> getAll() throws MyException{
+    public Collection<E> getAll(){
         return repository.getAll();
     }
 
-    @Override
     public void updateElement(String ID, String... args) throws MyException{
         ID elementID = formatID(ID);
         E updatedElement = formatElement(args);
