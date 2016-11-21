@@ -1,5 +1,6 @@
 package GUI;
 
+import GUI.Candidates.CandidatesView;
 import controller.CandidateController;
 import javafx.scene.Scene;
 import javafx.stage.Stage;

@@ -1,9 +1,7 @@
-package GUI;
+package GUI.Candidates;
 
 import controller.CandidateController;
 import domain.Candidate;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
@@ -12,41 +10,37 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import utils.MyException;
-
-import java.util.List;
 
 /**
  * Created by andrei on 11/20/2016.
  */
 public class CandidatesView {
 
-    private CandidateController controller;
-    private TableView<Candidate> candidatesTable;
-    private ObservableList<Candidate> model;
-    private VBox layout;
+    CandidatesViewController controller;
+    TableView<Candidate> candidatesTable;
+    VBox layout;
 
-    private TableColumn<Candidate, Integer> IDColumn;
-    private TableColumn<Candidate, String> nameColumn;
-    private TableColumn<Candidate, String> addressColumn;
-    private TableColumn<Candidate, String> phoneNumberColumn;
-    private TableColumn<Candidate, Double> gradeColumn;
+    TableColumn<Candidate, Integer> IDColumn;
+    TableColumn<Candidate, String> nameColumn;
+    TableColumn<Candidate, String> addressColumn;
+    TableColumn<Candidate, String> phoneNumberColumn;
+    TableColumn<Candidate, Double> gradeColumn;
 
-    private TextField IDInput;
-    private TextField nameInput;
-    private TextField addressInput;
-    private TextField phoneNumberInput;
-    private TextField gradeInput;
-    private TextField nameSearchInput;
+    TextField IDInput;
+    TextField nameInput;
+    TextField addressInput;
+    TextField phoneNumberInput;
+    TextField gradeInput;
+    TextField nameSearchInput;
 
-    private Button addButton;
-    private Button deleteButton;
-    private Button updateButton;
-    private Button clearButton;
+    Button addButton;
+    Button deleteButton;
+    Button updateButton;
+    Button clearButton;
 
 
-    public CandidatesView(CandidateController controller) {
-        this.controller = controller;
+    public CandidatesView(CandidateController ctr) {
+        this.controller = new CandidatesViewController(this, ctr);
         initComponents();
     }
 
@@ -81,8 +75,8 @@ public class CandidatesView {
         //table initialize
         candidatesTable = new TableView<>();
         candidatesTable.getColumns().addAll(IDColumn, nameColumn, addressColumn, phoneNumberColumn, gradeColumn);
-        candidatesTable.getSelectionModel().selectedItemProperty().addListener((v, oldValue, newValue) -> loadCandidate(newValue));
-        updateModel();
+        candidatesTable.getSelectionModel().selectedItemProperty().addListener((v, oldValue, newValue) -> controller.loadCandidate(newValue));
+        controller.updateModel();
 
 
         // ---------------------------------------- BUTTONS AND INPUTS -----------------------------------------------
@@ -110,7 +104,7 @@ public class CandidatesView {
         //Search input
         nameSearchInput = new TextField();
         nameSearchInput.setPromptText("Search by name");
-        nameSearchInput.textProperty().addListener((v,oldValue,newValue)->filterList(newValue));
+        nameSearchInput.textProperty().addListener((v,oldValue,newValue)->controller.filterList(newValue));
 
         //Input Layout
         VBox inputLayout = new VBox();
@@ -122,22 +116,22 @@ public class CandidatesView {
         //Add button
         addButton = new Button("Add");
         addButton.setMinWidth(100);
-        addButton.setOnAction(e -> addButtonHandle());
+        addButton.setOnAction(e -> controller.addButtonHandle());
 
         //Delete button
         deleteButton = new Button("Delete");
         deleteButton.setMinWidth(100);
-        deleteButton.setOnAction(e -> deleteButtonHandle());
+        deleteButton.setOnAction(e -> controller.deleteButtonHandle());
 
         //Update button
         updateButton = new Button("Update");
         updateButton.setMinWidth(100);
-        updateButton.setOnAction(e -> updateButtonHandle());
+        updateButton.setOnAction(e -> controller.updateButtonHandle());
 
         //Clear button
         clearButton = new Button("Clear");
         clearButton.setMinWidth(100);
-        clearButton.setOnAction(e -> clearText());
+        clearButton.setOnAction(e -> controller.clearText());
 
         //Buttons Layout
         HBox buttonLayout = new HBox();
@@ -160,75 +154,4 @@ public class CandidatesView {
         return layout;
     }
 
-
-    private void updateModel() {
-        ObservableList<Candidate> newList = FXCollections.observableArrayList();
-        newList.addAll(controller.getAll());
-        model = newList;
-        candidatesTable.setItems(model);
-    }
-
-    private void updateModel(List<Candidate> list) {
-        ObservableList<Candidate> newList = FXCollections.observableArrayList();
-        newList.addAll(list);
-        model = newList;
-        candidatesTable.setItems(model);
-    }
-
-    private void clearText() {
-        IDInput.setText("");
-        nameInput.setText("");
-        addressInput.setText("");
-        gradeInput.setText("");
-        phoneNumberInput.setText("");
-        nameSearchInput.setText("");
-    }
-
-    private void addButtonHandle() {
-        try {
-            controller.addElement(IDInput.getText(),
-                    nameInput.getText(),
-                    addressInput.getText(),
-                    phoneNumberInput.getText(),
-                    gradeInput.getText());
-            updateModel();
-        } catch (MyException e) {
-            AlertBox.display("Error!", e.getError());
-        }
-    }
-
-    private void deleteButtonHandle() {
-        try {
-            controller.removeElement(IDInput.getText());
-            updateModel();
-        } catch (MyException e) {
-            AlertBox.display("Error!", e.getError());
-        }
-    }
-
-    private void updateButtonHandle() {
-        try {
-            controller.updateElement(IDInput.getText(),
-                    nameInput.getText(),
-                    addressInput.getText(),
-                    phoneNumberInput.getText(),
-                    gradeInput.getText());
-            updateModel();
-        } catch (MyException e) {
-            AlertBox.display("Error!", e.getError());
-        }
-    }
-
-    private void loadCandidate(Candidate cand) {
-        if (cand == null) return;
-        IDInput.setText(cand.getID().toString());
-        nameInput.setText(cand.getName());
-        addressInput.setText(cand.getAddress());
-        gradeInput.setText(cand.getGrade().toString());
-        phoneNumberInput.setText(cand.getPhoneNumber());
-    }
-
-    private void filterList(String prefix) {
-        updateModel(controller.filterByPrefix(prefix));
-    }
 }

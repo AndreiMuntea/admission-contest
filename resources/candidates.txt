@@ -2,7 +2,6 @@
 2|Joyce Gonzales|55734 Cambridge Avenue|0874048506|7.99
 3|Paula Hawkins|6253 Miller Alley|0400452588|3.78
 4|Robert Stevens|605 Michigan Court|0117239551|5.24
-5|Pamela Sanders|52701 Cardinal Road|0858651894|4.17
 6|Clarence Wells|4637 Stoughton Parkway|0662460568|1.1
 7|George Reyes|35584 Northview Avenue|0733558634|6.66
 8|Mildred Ray|78 Tomscot Crossing|0700124603|3.37
@@ -117,9 +116,8 @@
 118|Lillian Lee|21 Eastwood Parkway|0955067988|3.72
 119|Phillip Stewart|24 Green Parkway|0520648140|3.93
 120|Richard Harper|575 Cardinal Terrace|0893890779|3.88
-121|Anne Cook|0 Browning Parkway|0434487490|8.02
 122|Deborah Morris|97 Old Gate Road|0329324011|4.24
-123|Alan Elliott|266 4th Place|0375775014|3.87
+123|Alan Elliott|266 4th Place|0375775014|3.99
 124|Doris Turner|224 Helena Court|0821557849|6.09
 125|Jennifer Payne|83 Shelley Lane|0369093636|2.79
 126|Linda Mitchell|8 1st Pass|0722033385|5.37
@@ -996,4 +994,3 @@
 998|Steve Kennedy|677 Bonner Junction|0971564422|5.04
 999|Joe Morgan|9607 Marcy Trail|0140390989|2.05
 1000|Alan Ramirez|831 Homewood Plaza|0382030335|7.34
-1001|Ava Addams|5'th Avenue|0727126338|9.0
