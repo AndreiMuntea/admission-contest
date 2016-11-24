@@ -25,7 +25,7 @@ public class AbstractRepository<ID, Element extends HasID<ID>> implements IRepos
     public void addElement(Element element) throws RepositoryException {
         ID elementID = element.getID();
         if (exists(elementID)) {
-            throw new RepositoryDuplicateItemException("Item with ID " + elementID + "already exists!\n");
+            throw new RepositoryDuplicateItemException("Item with ID " + elementID + " already exists!\n");
         }
         items.put(elementID, element);
     }
@@ -33,7 +33,7 @@ public class AbstractRepository<ID, Element extends HasID<ID>> implements IRepos
     @Override
     public Element removeElement(ID ID) throws RepositoryException {
         if (!exists(ID)) {
-            throw new RepositoryNotFoundException("Item with ID " + ID + "doesn't exists!\n");
+            throw new RepositoryNotFoundException("Item with ID " + ID + " doesn't exists!\n");
         }
 
         Element e = items.get(ID);
@@ -47,7 +47,7 @@ public class AbstractRepository<ID, Element extends HasID<ID>> implements IRepos
             throw new RepositoryChangedIDException("ID can't be changed!\n");
         }
         if (!exists(ID)) {
-            throw new RepositoryNotFoundException("Item with ID " + ID + "doesn't exists!\n");
+            throw new RepositoryNotFoundException("Item with ID " + ID + " doesn't exists!\n");
         }
         items.put(ID,updatedElement);
     }
@@ -55,7 +55,7 @@ public class AbstractRepository<ID, Element extends HasID<ID>> implements IRepos
     @Override
     public Element getElement(ID ID) throws RepositoryException {
         if (!exists(ID)) {
-            throw new RepositoryNotFoundException("Item with ID " + ID + "doesn't exists!\n");
+            throw new RepositoryNotFoundException("Item with ID " + ID + " doesn't exists!\n");
         }
         return items.get(ID);
     }
