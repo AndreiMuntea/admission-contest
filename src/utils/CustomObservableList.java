@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Created by andrei on 11/25/2016.
  */
-public class CustomObservableList<E> extends SimpleListProperty implements Observable<E>{
+public class CustomObservableList<E> extends SimpleListProperty<E> implements Observable<E>{
 
 
     protected List<Observer<E>> observers;
