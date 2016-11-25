@@ -130,6 +130,7 @@ public class SectionViewController extends AbstractObserver<Section> {
     @FXML
     public void clearText()
     {
+        model.notifyObservers(null);
         idText.setText("");
         nameText.setText("");
         slotsText.setText("");

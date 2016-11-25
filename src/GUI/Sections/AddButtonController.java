@@ -38,6 +38,7 @@ public class AddButtonController extends AbstractObserver<Section> {
     @Override
     public void update(Observable<Section> observable, Object... objects) {
         if(objects.length != 1) return;
+        if(objects[0] == null) clearText();
         if(objects[0] instanceof Section)
         {
             Section section = (Section) objects[0];
@@ -60,18 +61,15 @@ public class AddButtonController extends AbstractObserver<Section> {
         }
     }
 
-    private void clearText()
-    {
+    private void clearText() {
         textID.setText("");
         textName.setText("");
         textSlots.setText("");
     }
 
-    private void setSection(Section section)
-    {
+    private void setSection(Section section) {
         if (section == null) clearText();
-        else
-        {
+        else {
             textID.setText(section.getID());
             textName.setText(section.getName());
             textSlots.setText(section.getAvailableSlots().toString());

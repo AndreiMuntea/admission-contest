@@ -69,6 +69,7 @@ public class UpdateButtonController extends AbstractObserver<Section> {
     @Override
     public void update(Observable<Section> observable, Object... objects) {
         if(objects.length != 1) return;
+        if(objects[0] == null) clearText();
         if(objects[0] instanceof Section)
         {
             Section section = (Section) objects[0];
