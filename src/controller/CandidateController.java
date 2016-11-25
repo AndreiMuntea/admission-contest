@@ -14,7 +14,7 @@ import java.util.function.Predicate;
 /**
  * Created by andrei on 11/6/2016.
  */
-public class CandidateController extends AbstractController<Integer, Candidate> {
+public class CandidateController extends AbstractController<Integer, Candidate>{
 
     public CandidateController(IValidator<Candidate> validator, IRepository<Integer, Candidate> repository) {
         super(validator, repository);

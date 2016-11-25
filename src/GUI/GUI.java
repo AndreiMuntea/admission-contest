@@ -4,10 +4,16 @@ import GUI.Candidates.CandidatesView;
 import GUI.Sections.SectionViewController;
 import controller.CandidateController;
 import controller.SectionController;
+import javafx.application.Platform;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.MenuItem;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
 
 import java.io.IOException;
 
@@ -22,7 +28,12 @@ public class GUI {
     private CandidatesView candidatesView;
     private SectionViewController sectionViewController;
     private FXMLLoader sectionLoader;
-    private Parent sectionStage;
+    private Parent sectionScene;
+    private VBox candidatesScene;
+
+    private MenuItem sectionMenu;
+    private MenuItem candidatesMenu;
+
 
     public GUI(Stage mainStage, CandidateController candidateController, SectionController sectionController) throws IOException {
         this.mainStage = mainStage;
@@ -30,9 +41,10 @@ public class GUI {
         this.sectionController = sectionController;
 
         candidatesView = new CandidatesView(candidateController);
+        candidatesScene = candidatesView.getView();
 
         sectionLoader = new FXMLLoader(GUI.class.getResource("Sections/sections.fxml"));
-        sectionStage = sectionLoader.load();
+        sectionScene = sectionLoader.load();
 
         sectionViewController = sectionLoader.getController();
         sectionViewController.setController(sectionController);
@@ -40,10 +52,10 @@ public class GUI {
 
     public void start(){
         mainStage.setTitle("Sections");
-        //Scene mainScene = new Scene(candidatesView.getView(), 600, 600);
-        Scene mainScene = new Scene(sectionStage,600,600);
+        Scene mainScene = new Scene(sectionScene, 600, 600);
         mainStage.setScene(mainScene);
         mainStage.show();
-    }
+        mainStage.setOnCloseRequest(e -> Platform.exit());
 
+    }
 }

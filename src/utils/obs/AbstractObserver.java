@@ -8,5 +8,5 @@ public abstract class AbstractObserver<E> implements Observer<E> {
     public AbstractObserver(){};
 
     @Override
-    public abstract void update(Observable<E> observable);
+    public abstract void update(Observable<E> observable, Object... objects);
 }

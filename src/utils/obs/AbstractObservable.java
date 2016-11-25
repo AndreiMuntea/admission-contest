@@ -6,9 +6,9 @@ import java.util.List;
 /**
  * Created by andrei on 11/21/2016.
  */
-public class AbstractObservable<E> implements Observable<E> {
+public abstract class AbstractObservable<E> implements Observable<E> {
 
-    private List<Observer<E>> observers;
+    protected List<Observer<E>> observers;
 
     public AbstractObservable() {
         observers = new ArrayList<>();

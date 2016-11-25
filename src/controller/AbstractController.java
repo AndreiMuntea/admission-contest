@@ -3,6 +3,7 @@ package controller;
 import controller.exceptions.ControllerException;
 import repository.IRepository;
 import utils.MyException;
+import utils.obs.AbstractObservable;
 import validator.IValidator;
 
 import java.util.Collection;
@@ -13,7 +14,7 @@ import java.util.stream.Collectors;
 /**
  * Created by andrei on 11/6/2016.
  */
-public abstract class AbstractController<ID, E>{
+public abstract class AbstractController<ID, E> extends AbstractObservable<E>{
 
     protected IValidator<E> validator;
     protected IRepository<ID, E> repository;
@@ -35,11 +36,14 @@ public abstract class AbstractController<ID, E>{
         E element = formatElement(args);
         validator.validate(element);
         repository.addElement(element);
+        super.notifyObservers();
     }
 
     public E removeElement(String ID) throws MyException {
         ID elementID = formatID(ID);
-        return repository.removeElement(elementID);
+        E element = repository.removeElement(elementID);
+        super.notifyObservers();
+        return element;
     }
 
 
@@ -63,6 +67,7 @@ public abstract class AbstractController<ID, E>{
         E updatedElement = formatElement(args);
         validator.validate(updatedElement);
         repository.updateElement(elementID, updatedElement);
+        super.notifyObservers();
     }
 
     public abstract ID formatID(String ID) throws ControllerException;
