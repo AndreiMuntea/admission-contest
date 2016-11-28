@@ -1,0 +1,85 @@
+package GUI;
+
+import GUI.Candidates.CandidatesView;
+import GUI.Sections.SectionViewController;
+import controller.CandidateController;
+import controller.SectionController;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.layout.VBox;
+
+import java.io.IOException;
+
+/**
+ * Created by andrei on 11/28/2016.
+ */
+public class GUIController {
+    @FXML
+    Button candidatesButton;
+
+    @FXML
+    Button sectionsButton;
+
+    @FXML
+    VBox windowDisplayLayout;
+
+    private CandidateController candidateController;
+    private SectionController sectionController;
+    private CandidatesView candidatesView;
+    private SectionViewController sectionViewController;
+    private FXMLLoader sectionLoader;
+    private Parent sectionScene;
+    private Parent candidatesScene;
+
+
+    public GUIController()
+    {
+
+    }
+
+    public void initialiseComponents(CandidateController candidateController, SectionController sectionController) throws IOException {
+        this.candidateController = candidateController;
+        this.sectionController = sectionController;
+
+        candidatesView = new CandidatesView(candidateController);
+        candidatesScene = candidatesView.getView();
+
+        sectionLoader = new FXMLLoader(GUIController.class.getResource("Sections/sections.fxml"));
+        sectionScene = sectionLoader.load();
+
+        sectionViewController = sectionLoader.getController();
+        sectionViewController.setController(sectionController);
+
+        windowDisplayLayout.getChildren().add(candidatesScene);
+        candidatesButton.setDisable(true);
+    }
+
+    public void handleCandidatesButton()
+    {
+        candidatesButton.setDisable(true);
+        sectionsButton.setDisable(false);
+
+        windowDisplayLayout.getChildren().clear();
+        windowDisplayLayout.getChildren().add(candidatesScene);
+    }
+
+
+    public void handleSectionsButton()
+    {
+        candidatesButton.setDisable(false);
+        sectionsButton.setDisable(true);
+
+        windowDisplayLayout.getChildren().clear();
+        windowDisplayLayout.getChildren().add(sectionScene);
+    }
+
+
+
+
+
+
+
+}

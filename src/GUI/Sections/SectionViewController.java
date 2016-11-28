@@ -12,10 +12,13 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 import utils.CustomObservableList;
+import utils.MyException;
 import utils.obs.AbstractObserver;
 import utils.obs.Observable;
 
+import java.beans.EventHandler;
 import java.io.IOException;
+import java.util.List;
 
 /**
  * Created by andrei on 11/24/2016.
@@ -35,6 +38,10 @@ public class SectionViewController extends AbstractObserver<Section> {
     private TextField nameText;
     @FXML
     private TextField slotsText;
+    @FXML
+    private TextField filterByNameText;
+    @FXML
+    private TextField filterByMinimumSlots;
     @FXML
     private Button addButton;
     @FXML
@@ -101,7 +108,8 @@ public class SectionViewController extends AbstractObserver<Section> {
         model.addObserver(updateButtonController);
         model.addObserver(deleteButtonController);
 
-
+        filterByNameText.textProperty().addListener((e,oldValue,newValue)->inputFilterNameHandler(newValue));
+        filterByMinimumSlots.textProperty().addListener((e,oldValue,newValue)->inputFilterByMinimumSlots(newValue));
     }
 
     public void setController(SectionController controller) throws IOException {
@@ -143,6 +151,12 @@ public class SectionViewController extends AbstractObserver<Section> {
         table.setItems(model);
     }
 
+    public void updateModel(List<Section> list){
+        model.clear();
+        model.addAll(FXCollections.observableArrayList(list));
+        table.setItems(model);
+    }
+
     public void loadSection()
     {
         Section section = table.getSelectionModel().getSelectedItem();
@@ -157,4 +171,22 @@ public class SectionViewController extends AbstractObserver<Section> {
     public void update(Observable<Section> observable, Object... objects) {
         updateModel();
     }
+
+
+    public void inputFilterNameHandler(String text)
+    {
+        updateModel(controller.filterByPrefix(text));
+    }
+
+    public void inputFilterByMinimumSlots(String text)
+    {
+        try{
+            updateModel(controller.filterByMinimumSlots(text));
+        }catch (MyException e)
+        {
+            Alert a = new Alert(Alert.AlertType.ERROR,e.getError());
+            a.showAndWait();
+        }
+    }
+
 }

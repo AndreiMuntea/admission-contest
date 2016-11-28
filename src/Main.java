@@ -43,8 +43,8 @@ public class Main extends Application {
 
 
         IValidator<Section> sectionValidator = new SectionValidator();
-        ILoader<Section> sectionLoader = new SerialisedSectionLoader();
-        ISaver<Section> sectionSaver = new SerialisedSectionSaver();
+        ILoader<Section> sectionLoader = new SectionFileLoader();
+        ISaver<Section> sectionSaver = new SectionFileSaver();
         IRepository<String, Section> sectionRepository = new FileRepository<>("resources/sections.txt", sectionLoader, sectionSaver);
         SectionController sectionController = new SectionController(sectionValidator, sectionRepository);
 

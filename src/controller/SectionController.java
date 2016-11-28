@@ -6,7 +6,10 @@ import repository.IRepository;
 import utils.MyException;
 import validator.IValidator;
 
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
+import java.util.function.Predicate;
 
 /**
  * Created by andrei on 11/6/2016.
@@ -65,4 +68,26 @@ public class SectionController extends AbstractController<String, Section> {
         }
         return new Section(sectionID, sectionName, availableSlots);
     }
+
+    public List<Section> filterByPrefix(String prefix)
+    {
+        List<Section> list = new ArrayList<>(super.getAll());
+        if (prefix.isEmpty()) return list;
+
+        Predicate<Section> predicate = (c) -> c.getName().startsWith(prefix);
+        return super.filterList(list,predicate);
+    }
+
+    public List<Section> filterByMinimumSlots(String slots) throws ControllerException{
+        try{
+            if (slots.isEmpty()) slots = "0";
+            Integer minSlots = Integer.parseInt(slots);
+            List<Section> list = new ArrayList<>(super.getAll());
+            Predicate<Section> predicate = (c) -> c.getAvailableSlots() > minSlots;
+            return super.filterList(list,predicate);
+        }catch(NumberFormatException e){
+            throw new ControllerException("Invalid parameters type " + e.getMessage() + "\n");
+        }
+    }
+
 }
