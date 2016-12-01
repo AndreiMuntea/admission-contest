@@ -1,6 +1,7 @@
 package controller;
 
 import controller.exceptions.ControllerException;
+import domain.Candidate;
 import repository.IRepository;
 import utils.MyException;
 import utils.obs.AbstractObservable;
@@ -36,13 +37,14 @@ public abstract class AbstractController<ID, E> extends AbstractObservable<E>{
         E element = formatElement(args);
         validator.validate(element);
         repository.addElement(element);
-        super.notifyObservers();
+        notifyObservers();
     }
 
     public E removeElement(String ID) throws MyException {
         ID elementID = formatID(ID);
         E element = repository.removeElement(elementID);
-        super.notifyObservers();
+        notifyObservers();
+        notifyObservers(element);
         return element;
     }
 
@@ -67,7 +69,7 @@ public abstract class AbstractController<ID, E> extends AbstractObservable<E>{
         E updatedElement = formatElement(args);
         validator.validate(updatedElement);
         repository.updateElement(elementID, updatedElement);
-        super.notifyObservers();
+        notifyObservers();
     }
 
     public abstract ID formatID(String ID) throws ControllerException;

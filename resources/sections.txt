@@ -2,7 +2,6 @@
 5632aae6-4ae1-402f-b007-9aebc23d4c0b|Multi-layered optimizing core|99
 dfc2ef65-c9d6-423c-8810-1b3aef40894c|User-friendly systematic process improvement|70
 fab72fe0-e385-4d27-8311-c4e18abc188e|Polarised global help-desk|43
-768024fd-8c80-40c2-8bbd-4e58c70f168c|Automated content-based frame|4
 87b82980-b7d7-47a5-995a-b5e8cd8f23ba|Quality-focused regional service-desk|96
 f9e24757-231b-4c09-90b7-b891499723ff|Customizable exuding infrastructure|102
 c3c5758b-4d4d-485b-8d66-ffc413bd816a|Grass-roots analyzing parallelism|66
@@ -122,7 +121,6 @@ a770469a-bb4a-42d0-9d85-9a97b3502785|Stand-alone national adapter|59
 40ff7524-895c-4e4b-bf01-c3ef35c133bb|Intuitive asymmetric toolset|7
 46c416fe-bef6-4a9f-bec3-0a357d3c4813|Profit-focused clear-thinking toolset|46
 08bd7194-8210-4f84-b8e7-6d40250fc64a|Digitized exuding adapter|39
-d04a1c4f-3a53-43db-be08-eba3ddf361cd|Vision-oriented static framework|26
 b497c485-89a5-4cef-a0dd-cfc196df9ce7|Synchronised content-based contingency|51
 7e933e36-49e6-434c-a028-4d1b0d843064|Total responsive website|39
 1939416a-8dab-4222-ad3d-aae5f925b400|Organic uniform benchmark|9
@@ -670,11 +668,9 @@ f6eaf59a-5197-4d7a-af99-1963a1c2b1b3|Decentralized optimal website|46
 12a5506b-b572-4b6e-badf-9027f2b3ab46|Focused 24 hour encoding|8
 4a7e4d89-611f-43b5-86c0-0e515ed45df7|Realigned regional Graphical User Interface|93
 fcffa996-d4ae-436f-9777-6be9f57ba788|Focused systemic encryption|94
-4ad3ac60-daf0-4d7d-bc03-11463709305c|Universal global toolset|80
 3900baf2-e702-4ae1-b1fe-998920f17065|Extended uniform internet solution|12
 eb4b4cbf-9a01-4567-b960-0c3e11af383c|Implemented next generation extranet|30
 44603e28-7188-46b6-8eea-b5a3f82f7ea7|Pre-emptive 24 hour frame|52
-639c251d-daa0-4b58-b944-cacdbfd7147f|Stand-alone local encoding|72
 246c06c5-120b-4ed6-83c4-1c24350d15aa|Polarised mission-critical analyzer|81
 ee497499-b033-4ad5-b632-fe090f57589e|Phased executive monitoring|35
 6a6a54b7-477b-4ac2-8972-163b1e8e85aa|Cross-group multi-tasking pricing structure|33
@@ -728,7 +724,7 @@ f20b8768-b4fd-4b34-8f01-90cf21c116e7|Digitized eco-centric analyzer|45
 4c37d5de-9162-43a3-b0ae-5d83311fcb91|Ergonomic user-facing help-desk|38
 80cd9d22-ba35-4f34-a792-126ee3a2e2e2|Customer-focused content-based toolset|13
 a6ef7af0-8581-4fbf-a198-13090f718f3a|Balanced global monitoring|82
-af4a9f6b-b7f1-48e4-b56f-2389bbfdce30|User-friendly national intranet|100
+af4a9f6b-b7f1-48e4-b56f-2389bbfdce30|User-friendly national intranet2|100
 9e62f8ac-34e5-4e8d-9e30-afbd71e623e5|Advanced multi-state encryption|44
 5506563c-d5f1-4c14-87a7-ebb9024f109e|Face to face mission-critical approach|16
 dfda10e6-26ec-4e02-9331-c8db0a959438|Ergonomic systemic knowledge user|71
@@ -941,7 +937,6 @@ f6aeac8b-e3ee-46f6-9f4b-ea0d09113730|Expanded uniform ability|60
 a296cbb5-d8f0-4914-8276-79979a093557|Multi-tiered motivating complexity|66
 822a57cf-4c4a-46e5-bc0e-1f46468afd5c|Proactive scalable flexibility|48
 3ae25df7-b0b2-49e9-831c-b09c9062bd1d|Total cohesive concept|5
-f75ff22b-d629-49f9-92d6-85cf1e8a1ed0|Automated 24/7 standardization|36
 2a548760-e86d-454e-bd55-0b4bb5a88db6|Cloned grid-enabled frame|77
 a57ce782-433a-416c-8cf3-ea97fdd48463|Front-line empowering analyzer|83
 56f3ac2a-f53e-4377-af67-048281042837|Multi-lateral didactic framework|62

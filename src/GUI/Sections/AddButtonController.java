@@ -7,6 +7,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import services.SectionServices;
 import utils.MyException;
 import utils.obs.AbstractObserver;
 import utils.obs.Observable;
@@ -28,7 +29,7 @@ public class AddButtonController extends AbstractObserver<Section> {
     @FXML
     Button addButton;
 
-    private SectionController controller;
+    private SectionServices service;
     private Stage stage;
 
     public AddButtonController() {
@@ -36,24 +37,29 @@ public class AddButtonController extends AbstractObserver<Section> {
     }
 
     @Override
-    public void update(Observable<Section> observable, Object... objects) {
-        if(objects.length != 1) return;
-        if(objects[0] == null) clearText();
-        if(objects[0] instanceof Section)
-        {
-            Section section = (Section) objects[0];
+    public void update(Observable<Section> observable) {
+
+    }
+
+    @Override
+    public void update(Observable<Section> observable, Object object) {
+
+        if (object instanceof Section) {
+            Section section = (Section) object;
             setSection(section);
+        } else {
+            clearText();
         }
     }
 
-    public void setComponents(SectionController controller, Stage stage) {
-        this.controller = controller;
+    public void setComponents(SectionServices service, Stage stage) {
+        this.service = service;
         this.stage = stage;
     }
 
     public void handleAddButton() {
         try {
-            controller.addElement(textID.getText(), textName.getText(), textSlots.getText());
+            service.addSection(textID.getText(), textName.getText(), textSlots.getText());
             stage.close();
         } catch (MyException e) {
             Alert alert = new Alert(Alert.AlertType.ERROR, e.getMessage());

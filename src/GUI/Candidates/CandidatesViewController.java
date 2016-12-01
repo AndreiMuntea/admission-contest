@@ -5,8 +5,14 @@ import controller.CandidateController;
 import domain.Candidate;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.control.Alert;
+import services.CandidateServices;
+import services.OptionsServices;
 import utils.MyException;
 
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -15,18 +21,20 @@ import java.util.List;
 public class CandidatesViewController {
 
     CandidatesView view;
-    CandidateController controller;
+    CandidateServices service;
     private ObservableList<Candidate> model;
 
-    public CandidatesViewController(CandidatesView view, CandidateController controller)
+
+    public CandidatesViewController(CandidatesView view, CandidateServices service)
     {
         this.view = view;
-        this.controller = controller;
+        this.service = service;
+        this.model = FXCollections.observableArrayList();
     }
 
     public void updateModel() {
         ObservableList<Candidate> newList = FXCollections.observableArrayList();
-        newList.addAll(controller.getAll());
+        newList.addAll(service.getAll());
         model = newList;
         view.candidatesTable.setItems(model);
     }
@@ -49,7 +57,7 @@ public class CandidatesViewController {
 
     public void addButtonHandle() {
         try {
-            controller.addElement(view.IDInput.getText(),
+            service.addCandidate(view.IDInput.getText(),
                     view.nameInput.getText(),
                     view.addressInput.getText(),
                     view.phoneNumberInput.getText(),
@@ -62,7 +70,7 @@ public class CandidatesViewController {
 
     public void deleteButtonHandle() {
         try {
-            controller.removeElement(view.IDInput.getText());
+            service.removeCandidate(view.IDInput.getText());
             updateModel();
         } catch (MyException e) {
             AlertBox.display("Error!", e.getError());
@@ -71,7 +79,7 @@ public class CandidatesViewController {
 
     public void updateButtonHandle() {
         try {
-            controller.updateElement(view.IDInput.getText(),
+            service.updateCandidate(view.IDInput.getText(),
                     view.nameInput.getText(),
                     view.addressInput.getText(),
                     view.phoneNumberInput.getText(),
@@ -84,6 +92,7 @@ public class CandidatesViewController {
 
     public void loadCandidate(Candidate cand) {
         if (cand == null) return;
+        view.sectionsController.update(cand);
         view.IDInput.setText(cand.getID().toString());
         view.nameInput.setText(cand.getName());
         view.addressInput.setText(cand.getAddress());
@@ -92,6 +101,12 @@ public class CandidatesViewController {
     }
 
     public void filterList(String prefix) {
-        updateModel(controller.filterByPrefix(prefix));
+        updateModel(service.filterByPrefix(prefix));
+    }
+
+    public void register()
+    {
+        view.sectionsController.register(view.IDInput.getText(), view.sectionIDInput.getText());
+
     }
 }

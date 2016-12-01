@@ -64,7 +64,7 @@ public class SectionController extends AbstractController<String, Section> {
             sectionName = args[1];
             availableSlots = Integer.parseInt(args[2]);
         }catch(NumberFormatException e){
-            throw new ControllerException("Invalid parameters type " + e.getMessage() + "\n");
+            throw new ControllerException("Available slots should be a positive Integer: " + e.getMessage() + "\n");
         }
         return new Section(sectionID, sectionName, availableSlots);
     }

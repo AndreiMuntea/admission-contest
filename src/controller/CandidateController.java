@@ -52,7 +52,7 @@ public class CandidateController extends AbstractController<Integer, Candidate>{
         try {
             candidateID = Integer.parseInt(ID);
         } catch (NumberFormatException e) {
-            throw new ControllerException("Invalid parameters type " + e.getMessage() + "\n");
+            throw new ControllerException("Invalid ID for candidate: " + e.getMessage() + "\n");
         }
         return candidateID;
     }
@@ -76,7 +76,7 @@ public class CandidateController extends AbstractController<Integer, Candidate>{
             phoneNumber = args[3];
             grade = Double.parseDouble(args[4]);
         } catch (NumberFormatException e) {
-            throw new ControllerException("Invalid parameters type " + e.getMessage() + "\n");
+            throw new ControllerException("ID should be a positive integer and grade should be between [1,10] " + e.getMessage() + "\n");
         }
 
         return new Candidate(ID, name, address, phoneNumber, grade);

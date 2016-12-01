@@ -3,7 +3,6 @@ package GUI.Sections;
 import controller.SectionController;
 import domain.Section;
 import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -11,12 +10,12 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
+import services.SectionServices;
 import utils.CustomObservableList;
 import utils.MyException;
 import utils.obs.AbstractObserver;
 import utils.obs.Observable;
 
-import java.beans.EventHandler;
 import java.io.IOException;
 import java.util.List;
 
@@ -51,7 +50,7 @@ public class SectionViewController extends AbstractObserver<Section> {
     @FXML
     private Button clearButton;
 
-    private SectionController controller;
+    private SectionServices service;
     private CustomObservableList<Section> model;
 
     private AddButtonController addButtonController;
@@ -70,7 +69,7 @@ public class SectionViewController extends AbstractObserver<Section> {
     private Parent deleteScene;
     private Parent updateScene;
 
-    public SectionViewController() {
+    public SectionViewController()  {
     }
 
     private void initialize() throws IOException {
@@ -84,7 +83,7 @@ public class SectionViewController extends AbstractObserver<Section> {
         addLoader = new FXMLLoader(SectionViewController.class.getResource("add.fxml"));
         addScene = addLoader.load();
         addButtonController = addLoader.getController();
-        addButtonController.setComponents(controller, addStage);
+        addButtonController.setComponents(service, addStage);
         addStage.setScene(new Scene(addScene, 400, 400));
 
 
@@ -93,7 +92,7 @@ public class SectionViewController extends AbstractObserver<Section> {
         deleteLoader = new FXMLLoader(SectionViewController.class.getResource("delete.fxml"));
         deleteScene = deleteLoader.load();
         deleteButtonController = deleteLoader.getController();
-        deleteButtonController.setComponents(controller, deleteStage);
+        deleteButtonController.setComponents(service, deleteStage);
         deleteStage.setScene(new Scene(deleteScene, 400, 400));
 
         updateStage = new Stage();
@@ -101,7 +100,7 @@ public class SectionViewController extends AbstractObserver<Section> {
         updateLoader = new FXMLLoader(SectionViewController.class.getResource("update.fxml"));
         updateScene = updateLoader.load();
         updateButtonController = updateLoader.getController();
-        updateButtonController.setComponents(controller, updateStage);
+        updateButtonController.setComponents(service, updateStage);
         updateStage.setScene(new Scene(updateScene, 400, 400));
 
         model.addObserver(addButtonController);
@@ -112,9 +111,9 @@ public class SectionViewController extends AbstractObserver<Section> {
         filterByMinimumSlots.textProperty().addListener((e,oldValue,newValue)->inputFilterByMinimumSlots(newValue));
     }
 
-    public void setController(SectionController controller) throws IOException {
-        this.controller = controller;
-        controller.addObserver(this);
+    public void setController(SectionServices service) throws IOException {
+        this.service = service;
+        service.addObserver(this);
         initialize();
         updateModel();
     }
@@ -147,7 +146,7 @@ public class SectionViewController extends AbstractObserver<Section> {
 
     public void updateModel() {
         model.clear();
-        model.addAll(FXCollections.observableArrayList(controller.getAll()));
+        model.addAll(FXCollections.observableArrayList(service.getAll()));
         table.setItems(model);
     }
 
@@ -168,20 +167,22 @@ public class SectionViewController extends AbstractObserver<Section> {
     }
 
     @Override
-    public void update(Observable<Section> observable, Object... objects) {
+    public void update(Observable<Section> observable) {
         updateModel();
     }
 
+    @Override
+    public void update(Observable<Section> observable, Object o) {updateModel();}
 
     public void inputFilterNameHandler(String text)
     {
-        updateModel(controller.filterByPrefix(text));
+        updateModel(service.filterByPrefix(text));
     }
 
     public void inputFilterByMinimumSlots(String text)
     {
         try{
-            updateModel(controller.filterByMinimumSlots(text));
+            updateModel(service.filterByMinimumSlots(text));
         }catch (MyException e)
         {
             Alert a = new Alert(Alert.AlertType.ERROR,e.getError());

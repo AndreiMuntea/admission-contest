@@ -30,4 +30,11 @@ public abstract class AbstractObservable<E> implements Observable<E> {
             o.update(this);
         }
     }
+
+    @Override
+    public void notifyObservers(Object o) {
+        for(Observer<E> observer : observers){
+            observer.update(this, o);
+        }
+    }
 }
