@@ -47,4 +47,11 @@ public class Pair<E1,E2> {
                 ", second=" + second +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        int result = first != null ? first.hashCode() : 0;
+        result = 31 * result + (second != null ? second.hashCode() : 0);
+        return result;
+    }
 }

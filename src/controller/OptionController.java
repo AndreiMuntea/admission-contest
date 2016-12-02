@@ -32,9 +32,9 @@ public class OptionController extends AbstractObservable<Option> {
 
     public void addOption(String candidateID, String sectionID) throws MyException {
         try {
-            Integer IDcandidate = Integer.parseInt(candidateID);
-            if (candidateRepository.exists(IDcandidate) && sectionRepository.exists(sectionID)) {
-                Pair<Integer, String> option = new Pair<>(IDcandidate, sectionID);
+            Integer IDCandidate = Integer.parseInt(candidateID);
+            if (candidateRepository.exists(IDCandidate) && sectionRepository.exists(sectionID)) {
+                Pair<Integer, String> option = new Pair<>(IDCandidate, sectionID);
                 optionRepository.addElement(new Option(option));
             }
         } catch (NumberFormatException e) {

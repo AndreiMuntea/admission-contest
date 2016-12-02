@@ -11,11 +11,13 @@ import helpers.loader.serialisedLoader.SerialisedSectionLoader;
 import helpers.loader.textFileLoaders.CandidateFileLoader;
 import helpers.loader.textFileLoaders.OptionFileLoader;
 import helpers.loader.textFileLoaders.SectionFileLoader;
+import helpers.loader.xmlLoaders.SectionXMLLoader;
 import helpers.saver.ISaver;
 import helpers.saver.serialisedSaver.SerialisedSectionSaver;
 import helpers.saver.textFileSaver.CandidateFileSaver;
 import helpers.saver.textFileSaver.OptionFileSaver;
 import helpers.saver.textFileSaver.SectionFileSaver;
+import helpers.saver.xmlSavers.SectionXMLSaver;
 import javafx.application.Application;
 import javafx.stage.Stage;
 import repository.FileRepository;
@@ -47,8 +49,8 @@ public class Main extends Application {
 
 
         IValidator<Section> sectionValidator = new SectionValidator();
-        ILoader<Section> sectionLoader = new SectionFileLoader();
-        ISaver<Section> sectionSaver = new SectionFileSaver();
+        ILoader<Section> sectionLoader = new SectionXMLLoader();
+        ISaver<Section> sectionSaver = new SectionXMLSaver();
         IRepository<String, Section> sectionRepository = new FileRepository<>("resources/sections.txt", sectionLoader, sectionSaver);
         SectionController sectionController = new SectionController(sectionValidator, sectionRepository);
 
