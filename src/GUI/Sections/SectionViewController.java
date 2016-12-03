@@ -9,7 +9,9 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
+import services.OptionsServices;
 import services.SectionServices;
 import utils.CustomObservableList;
 import utils.MyException;
@@ -49,17 +51,28 @@ public class SectionViewController extends AbstractObserver<Section> {
     private Button deleteButton;
     @FXML
     private Button clearButton;
+    @FXML
+    private Button mostWantedButton;
+    @FXML
+    private Button highestAverageButton;
+    @FXML
+    private HBox displayLayout;
 
     private SectionServices service;
+    private OptionsServices optionService;
     private CustomObservableList<Section> model;
 
     private AddButtonController addButtonController;
     private UpdateButtonController updateButtonController;
     private DeleteButtonController deleteButtonController;
+    private MostWantedButtonController mostWantedButtonController;
+    private HighestAverageButtonController highestAverageButtonController;
 
     private FXMLLoader addLoader;
     private FXMLLoader deleteLoader;
     private FXMLLoader updateLoader;
+    private FXMLLoader highestAverageLoader;
+    private FXMLLoader mostWantedLoader;
 
     private Stage addStage;
     private Stage deleteStage;
@@ -68,6 +81,8 @@ public class SectionViewController extends AbstractObserver<Section> {
     private Parent addScene;
     private Parent deleteScene;
     private Parent updateScene;
+    private Parent highestAverageScene;
+    private Parent mostWantedScene;
 
     public SectionViewController()  {
     }
@@ -103,6 +118,20 @@ public class SectionViewController extends AbstractObserver<Section> {
         updateButtonController.setComponents(service, updateStage);
         updateStage.setScene(new Scene(updateScene, 400, 400));
 
+
+        highestAverageLoader = new FXMLLoader(SectionViewController.class.getResource("highestAverageSectionReport.fxml"));
+        highestAverageScene = highestAverageLoader.load();
+        highestAverageButtonController = highestAverageLoader.getController();
+        highestAverageButtonController.setService(optionService);
+
+
+        mostWantedLoader = new FXMLLoader(SectionViewController.class.getResource("mostWantedSections.fxml"));
+        mostWantedScene = mostWantedLoader.load();
+        mostWantedButtonController = mostWantedLoader.getController();
+        mostWantedButtonController.setService(optionService);
+
+        displayLayout.getChildren().addAll(highestAverageScene);
+
         model.addObserver(addButtonController);
         model.addObserver(updateButtonController);
         model.addObserver(deleteButtonController);
@@ -111,8 +140,9 @@ public class SectionViewController extends AbstractObserver<Section> {
         filterByMinimumSlots.textProperty().addListener((e,oldValue,newValue)->inputFilterByMinimumSlots(newValue));
     }
 
-    public void setController(SectionServices service) throws IOException {
+    public void setController(SectionServices service, OptionsServices optionServices) throws IOException {
         this.service = service;
+        this.optionService = optionServices;
         service.addObserver(this);
         initialize();
         updateModel();
@@ -188,6 +218,18 @@ public class SectionViewController extends AbstractObserver<Section> {
             Alert a = new Alert(Alert.AlertType.ERROR,e.getError());
             a.showAndWait();
         }
+    }
+
+    public void handleButtonMostWanted()
+    {
+        displayLayout.getChildren().clear();
+        displayLayout.getChildren().add(mostWantedScene);
+    }
+
+    public void handleButtonHighestAverate()
+    {
+        displayLayout.getChildren().clear();
+        displayLayout.getChildren().add(highestAverageScene);
     }
 
 }

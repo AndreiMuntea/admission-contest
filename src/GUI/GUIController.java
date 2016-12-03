@@ -57,7 +57,7 @@ public class GUIController {
         sectionScene = sectionLoader.load();
 
         sectionViewController = sectionLoader.getController();
-        sectionViewController.setController(sectionServices);
+        sectionViewController.setController(sectionServices, optionsServices);
 
         windowDisplayLayout.getChildren().add(candidatesScene);
         candidatesButton.setDisable(true);

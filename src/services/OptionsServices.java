@@ -4,6 +4,8 @@ import controller.CandidateController;
 import controller.OptionController;
 import controller.SectionController;
 import domain.Candidate;
+import domain.DTO.TopSectionsByAverageDTO;
+import domain.DTO.TopSectionsByNumberDTO;
 import domain.Option;
 import domain.Section;
 import utils.MyException;
@@ -85,6 +87,16 @@ public class OptionsServices extends AbstractObservable<Option> implements Obser
             candidatesNames.clear();
         }
         return candidatesNames;
+    }
+
+    public List<TopSectionsByAverageDTO> getTop10SectionsByAverage() throws MyException
+    {
+        return optionController.getSectionsWithHighestAverageGrade("10");
+    }
+
+    public List<TopSectionsByNumberDTO> getTop5MostWantedSections() throws MyException
+    {
+        return optionController.getMostWantedSections("5");
     }
 
     @Override

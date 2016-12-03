@@ -60,6 +60,7 @@ public class Main extends Application {
         IRepository<Pair<Integer,String>,Option> optionRepository = new FileRepository<>("resources/options.txt",optionLoader, optionSaver);
         OptionController optionController = new OptionController(candidateRepository, sectionRepository, optionRepository);
 
+
         GUI gui = new GUI(primaryStage, candidateController, sectionController, optionController);
         gui.start();
 
